@@ -116,3 +116,11 @@ img_path = '../data/hsqc/test/steroids/489_60_61_70_491_544.jpg'
 new_image = load_image(img_path, False)
 pred = network.predict(new_image)
 print(pred)
+img_path = '../data/hsqc/train/steroids/40254533.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hsqc/train/steroids/60003455.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
