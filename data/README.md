@@ -1,4 +1,4 @@
-Most data come from http://www.bmrb.wisc.edu/ftp/pub/bmrb/metabolomics/entry_directories/ HMBC and HSQC images have been downloaded. Some structures have no HMBC spectra. Those are: bmse000227, bmse000957 (fatty acid), bse000097, bmse000177, bmse000207, bmse001017 (indol). In the steroid folder, there are two structures which come from nmrshiftdb2.
+Most data come from http://www.bmrb.wisc.edu/ftp/pub/bmrb/metabolomics/entry_directories/ HMBC and HSQC images have been downloaded. Some structures have no HMBC spectra. Those are: bmse000227, bmse000502, bmse000509, bmse000957 (fatty acid), bse000097, bmse000177, bmse000207, bmse001017 (indol). In the steroid folder, there are two structures which come from nmrshiftdb2.
 
 All spectra have been edited in the following way:
 - converted to jpeg
