@@ -12,35 +12,23 @@ import numpy as np
 
 train_path = "../data/hsqc/train/"
 test_path = "../data/hsqc/test/"
-#3 folders inside for each class
-# folders = os.listdir(test_path)
-dataset_to_train = []
-
 
 num_folds = 5
 epochs = 50
 acc_per_fold = []
 loss_per_fold = []
 
-
 train_datagen=ImageDataGenerator(rescale=1./255)
 
-data=train_datagen.flow_from_directory(directory=train_path,
-                                            target_size=(300,205), batch_size=70,
-                                            color_mode='grayscale',class_mode='categorical')
-# test_set=train_datagen.flow_from_directory(directory=test_path,
-#                                             target_size=(300,205), batch_size=8, 
-#                                             color_mode='grayscale',class_mode='categorical')
+data=train_datagen.flow_from_directory( directory=train_path,
+                                        target_size=(300,205), batch_size=70,
+                                        color_mode='grayscale',class_mode='categorical')
 
 x, y = data.next()
-# x, y = data.next()
 
 print(x.shape)
 print(y.shape)
 
-# inputs = np.concatenate((train_set, test_set), axis=0)
-# inputs = train_set.concatenate(test_set)
-# inputs = chain(train_set, test_set)
 print("Defining the K-fold Cross Validator")
 kfold = KFold(n_splits=num_folds, shuffle=True)
 print(kfold.get_n_splits(x, y))
@@ -92,3 +80,8 @@ for train, test in kfold.split(x, y):
 
     # Increase fold number
     fold_no = fold_no + 1
+
+
+
+print("\n\n Overall accuracy: " + str(np.average(acc_per_fold)))
+print("Overall loss: " + str(np.average(loss_per_fold)))
