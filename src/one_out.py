@@ -91,7 +91,7 @@ for train, test in kfold.split(x, y):
     #     raise
 
     # Generate generalization metrics
-    scores = network.evaluate(x[test], verbose=0)
+    scores = network.evaluate(x[test], y[test], verbose=0)
     print(f'Score for fold {fold_no}: {network.metrics_names[0]} of {scores[0]}; {network.metrics_names[1]} of {scores[1]*100}%')
     acc_per_fold.append(scores[1] * 100)
     loss_per_fold.append(scores[0])
