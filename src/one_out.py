@@ -9,8 +9,6 @@ from keras import layers
 
 from sklearn.model_selection import KFold
 import numpy as np
-from itertools import chain
-
 
 train_path = "../data/hsqc/train/"
 test_path = "../data/hsqc/test/"
@@ -24,27 +22,37 @@ epochs = 50
 acc_per_fold = []
 loss_per_fold = []
 
+
+
+
 train_datagen=ImageDataGenerator(rescale=1./255)
 
 
 
-train_set=train_datagen.flow_from_directory(directory=train_path,
-                                            target_size=(300,205), batch_size=8, 
+data=train_datagen.flow_from_directory(directory=train_path,
+                                            target_size=(300,205), batch_size=70,
                                             color_mode='grayscale',class_mode='categorical')
-test_set=train_datagen.flow_from_directory(directory=test_path,
-                                            target_size=(300,205), batch_size=8, 
-                                            color_mode='grayscale',class_mode='categorical')
+# test_set=train_datagen.flow_from_directory(directory=test_path,
+#                                             target_size=(300,205), batch_size=8, 
+#                                             color_mode='grayscale',class_mode='categorical')
+
+x, y = data.next()
+# x, y = data.next()
+
+print(x.shape)
+print(y.shape)
 
 
-print("Merging inputs and targets")
+
 # inputs = np.concatenate((train_set, test_set), axis=0)
 # inputs = train_set.concatenate(test_set)
-inputs = chain(train_set, test_set)
+# inputs = chain(train_set, test_set)
 print("Defining the K-fold Cross Validator")
 kfold = KFold(n_splits=num_folds, shuffle=True)
+print(kfold.get_n_splits(x, y))
 
 fold_no = 1
-for train, test in inputs:
+for train, test in kfold.split(x, y):
     print("#build network")
     network=models.Sequential()
     network.add(layers.Conv2D(32, 3, activation='relu', input_shape=(300, 205, 1)))
@@ -65,7 +73,7 @@ for train, test in inputs:
     print(f'Training for fold {fold_no} ...')
 
     # Fit data to model
-    network.fit(train_set, epochs=epochs)
+    network.fit(x[train], y[train], epochs=epochs)
     #test using test data
     np.set_printoptions(precision=2)
     np.set_printoptions(suppress=True)
@@ -83,7 +91,7 @@ for train, test in inputs:
     #     raise
 
     # Generate generalization metrics
-    scores = network.evaluate(test_set, verbose=0)
+    scores = network.evaluate(x[test], verbose=0)
     print(f'Score for fold {fold_no}: {network.metrics_names[0]} of {scores[0]}; {network.metrics_names[1]} of {scores[1]*100}%')
     acc_per_fold.append(scores[1] * 100)
     loss_per_fold.append(scores[0])
