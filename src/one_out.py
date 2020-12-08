@@ -23,11 +23,7 @@ acc_per_fold = []
 loss_per_fold = []
 
 
-
-
 train_datagen=ImageDataGenerator(rescale=1./255)
-
-
 
 data=train_datagen.flow_from_directory(directory=train_path,
                                             target_size=(300,205), batch_size=70,
@@ -41,8 +37,6 @@ x, y = data.next()
 
 print(x.shape)
 print(y.shape)
-
-
 
 # inputs = np.concatenate((train_set, test_set), axis=0)
 # inputs = train_set.concatenate(test_set)
@@ -98,9 +92,3 @@ for train, test in kfold.split(x, y):
 
     # Increase fold number
     fold_no = fold_no + 1
-
-
-
-
-
-
