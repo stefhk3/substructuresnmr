@@ -56,7 +56,9 @@ hmbc_softmax1 = layers.MaxPooling2D(2,2)(hmbc_conv1)
 hmbc_conv2 = layers.Conv2D(64, (3,3), activation='relu')(hmbc_softmax1)
 hmbc_softmax2 = layers.MaxPooling2D(2,2)(hmbc_conv2)
 hmbc_conv3 = layers.Conv2D(64, (3,3), activation='relu')(hmbc_softmax2)
-hmbc_flatten = layers.Flatten()(hmbc_conv3)
+hmbc_softmax3 = layers.MaxPooling2D(2,2)(hmbc_conv3)
+hmbc_conv4 = layers.Conv2D(128, 3, activation='relu')(hmbc_softmax3)
+hmbc_flatten = layers.Flatten()(hmbc_conv4)
 
 #the hsqc "column"
 hsqc_conv1 = layers.Conv2D(32, (3,3), activation='relu', input_shape=(300, 205, 1))(hsqc_input)
@@ -64,7 +66,9 @@ hsqc_softmax1 = layers.MaxPooling2D(2,2)(hsqc_conv1)
 hsqc_conv2 = layers.Conv2D(64, (3,3), activation='relu')(hsqc_softmax1)
 hsqc_softmax2 = layers.MaxPooling2D(2,2)(hsqc_conv2)
 hsqc_conv3 = layers.Conv2D(64, (3,3), activation='relu')(hsqc_softmax2)
-hsqc_flatten = layers.Flatten()(hsqc_conv3)
+hsqc_softmax3 = layers.MaxPooling2D(2,2)(hsqc_conv3)
+hsqc_conv4 = layers.Conv2D(128, 3, activation='relu')(hsqc_softmax3)
+hsqc_flatten = layers.Flatten()(hsqc_conv4)
 
 #concetenate
 concatted = layers.Concatenate()([hsqc_flatten, hmbc_flatten])
