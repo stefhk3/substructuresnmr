@@ -4,8 +4,15 @@ from tensorflow.keras import models
 from tensorflow.keras import layers
 from tensorflow import keras
 import numpy as np
+from sklearn.model_selection import KFold
+
 
 #This script needs the hmbc and hsqc spectrum from each compound. Either remove the hsqc spectra without hmbc, or add blank images for hmbc to make them match
+
+num_folds = 10
+acc_per_fold = []
+loss_per_fold = []
+
 
 def load_image(img_path, show=False):
 
@@ -44,6 +51,7 @@ train_set_hmbc=train_datagen.flow_from_directory('../data/hmbc/train',target_siz
 train_set_hsqc=train_datagen.flow_from_directory('../data/hsqc/train',target_size=(300,205),batch_size=8,color_mode='grayscale',class_mode='categorical',shuffle=False)
 training_generator = JoinedGenerator(train_set_hmbc, train_set_hsqc)
 
+
 hmbc_input = keras.Input(
     shape=(300, 205, 1), name="hmbc"
 ) 
@@ -77,13 +85,30 @@ concatted = layers.Concatenate()([hsqc_flatten, hmbc_flatten])
 dense = layers.Dense(64, activation='relu')(concatted)
 output = layers.Dense(3, activation='softmax', name='structure')(dense)
 
-model = keras.Model(
-    inputs=[hmbc_input, hsqc_input],
-    outputs=[output],
-)
+#cross validation
 
-#model.summary()
+kfold = KFold(n_splits=num_folds, shuffle=True)
+fold_no = 1
+for train, test in kfold.split(training_generator):
+    model = keras.Model(
+        inputs=[hmbc_input, hsqc_input],
+        outputs=[output],
+    )
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+    print('model compiled')
+    print('------------------------------------------------------------------------')
+    print(f'Training for fold {fold_no} ...')
 
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+    model.fit_generator(generator=training_generator,  epochs=50)
+        # Generate generalization metrics
+    scores = model.evaluate(x[test], y[test], verbose=0)
+    print(f'Score for fold {fold_no}: {model.metrics_names[0]} of {scores[0]}; {model.metrics_names[1]} of {scores[1]*100}%')
+    acc_per_fold.append(scores[1] * 100)
+    loss_per_fold.append(scores[0])
 
-model.fit_generator(generator=training_generator,  epochs=50)
+    # Increase fold number
+    fold_no = fold_no + 1
+
+
+print("\n\n Overall accuracy: " + str(np.average(acc_per_fold)))
+print("Overall loss: " + str(np.average(loss_per_fold)))
