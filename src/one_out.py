@@ -14,13 +14,15 @@ train_path = "../data/hsqc/all/"
 # test_path = "../data/hsqc/test/"
 output_path = "../output/"
 filename = str(strftime("%a%d%b%Y_at_%H%M", gmtime())) + ".txt"
-f = open(output_path+filename, "w+")
+
 
 try:
     num_folds = 5
     epochs = 50
     acc_per_fold = []
     loss_per_fold = []
+
+    f = open(output_path+filename, "w+")
 
     train_datagen=ImageDataGenerator(rescale=1./255)
 
@@ -32,11 +34,10 @@ try:
 
     print("Defining the K-fold Cross Validator")
     kfold = KFold(n_splits=num_folds, shuffle=True)
-    print(kfold.get_n_splits(x, y))
 
     fold_no = 1
     for train, test in kfold.split(x, y):
-        print("#build network")
+        #network
         network=models.Sequential()
         network.add(layers.Conv2D(32, 3, activation='relu', input_shape=(300, 205, 1)))
         network.add(layers.MaxPooling2D((2,2)))
@@ -51,15 +52,14 @@ try:
         #The default learning rate is 0.01
         network.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-        # Generate a print
         print('------------------------------------------------------------------------')
         f.write('------------------------------------------------------------------------')
         print(f'Training for fold {fold_no} ...')
         f.write(f'Training for fold {fold_no} ...')
 
-        # Fit data to model
+
         network.fit(x[train], y[train], epochs=epochs)
-        #test using test data
+
         np.set_printoptions(precision=2)
         np.set_printoptions(suppress=True)
 
@@ -84,8 +84,6 @@ try:
 
         # Increase fold number
         fold_no = fold_no + 1
-
-
 
     print("\n\n Overall accuracy: " + str(np.average(acc_per_fold)))
     print("Overall loss: " + str(np.average(loss_per_fold)))
