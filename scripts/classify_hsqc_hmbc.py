@@ -23,20 +23,22 @@ hmbc_imgs, hmbc_targets = train_set_hmbc.next()
 hsqc_imgs, hsqc_targets = train_set_hsqc.next()
 
 num_folds = [2, 3, 5, 10, 82]
+epochs = 50
 acc_per_fold = []
 loss_per_fold = []
 
-current_datetime = str(strftime("%a%d%b%Y_at_%H%M", gmtime()))
+output_path = "../output/"
+filename = str(strftime("%a%d%b%Y_at_%H%M", gmtime())) + ".txt"
+f = open(output_path+filename, "w+")
 
 try:
-    f = open("../outputs/.txt","w+")
     for i in range(len(num_folds)):
         print('-----------------------------------')
-        f.write('-----------------------------------')
-        print("NUM_FOLD SET TO: " + num_folds[i])
-        f.write("NUM_FOLD SET TO: " + num_folds[i])
+        f.write('\n-----------------------------------')
+        print("NUM_FOLD SET TO: " + str(num_folds[i]))
+        f.write("\nNUM_FOLD SET TO: " + str(num_folds[i]))
         print('-----------------------------------')
-        f.write('-----------------------------------')
+        f.write('\n-----------------------------------')
         #cross validation
         kfold = KFold(n_splits=num_folds[i], shuffle=False)
         fold_no = 1
@@ -83,17 +85,16 @@ try:
             model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
             print('model compiled')
             print('------------------------------------------------------------------------')
-            f.write('------------------------------------------------------------------------')
             print(f'Training for fold {fold_no} ...')
-            f.write(f'Training for fold {fold_no} ...')
+            f.write(f'\nTraining for fold {fold_no} ...')
             
             #Ensuring that our data match
             if(hmbc_targets.all() == hsqc_targets.all()):
-                model.fit(x=[hmbc_imgs[train], hsqc_imgs[train]], y=hmbc_targets[train],  epochs=5)
+                model.fit(x=[hmbc_imgs[train], hsqc_imgs[train]], y=hmbc_targets[train],  epochs=epochs)
                 # Generate generalization metrics
                 scores = model.evaluate(x=[hmbc_imgs[test], hsqc_imgs[test]], y=hmbc_targets[test], verbose=0)
                 print(f'Score for fold {fold_no}: {model.metrics_names[0]} of {scores[0]}; {model.metrics_names[1]} of {scores[1]*100}%')
-                f.write(f'Score for fold {fold_no}: {model.metrics_names[0]} of {scores[0]}; {model.metrics_names[1]} of {scores[1]*100}%')
+                f.write(f'\nScore for fold {fold_no}: {model.metrics_names[0]} of {scores[0]}; {model.metrics_names[1]} of {scores[1]*100}%')
                 acc_per_fold.append(scores[1] * 100)
                 loss_per_fold.append(scores[0])
 
@@ -105,9 +106,12 @@ try:
         print("Overall loss: " + str(np.average(loss_per_fold)))
 
         f.write("\n\nOverall accuracy: " + str(np.average(acc_per_fold)))
-        f.write("Overall loss: " + str(np.average(loss_per_fold)))
+        f.write("\nOverall loss: " + str(np.average(loss_per_fold)))
+        f.write('\n\n===========================================\n')
 
 except Exception as e:
-    print('an exception occured: ' + e + '\n' + e.args)
+    print(type(e))    # the exception instance
+    print(e.args)     # arguments stored in .args
+    print(e)          # __str__ allows args to be printed directly,
 finally:
     f.close()
