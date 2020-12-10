@@ -14,15 +14,13 @@ train_path = "../data/hsqc/all/"
 # test_path = "../data/hsqc/test/"
 output_path = "../output/"
 filename = str(strftime("%a%d%b%Y_at_%H%M", gmtime())) + ".txt"
-
+f = open(output_path+filename, "w+")
 
 try:
     num_folds = 5
     epochs = 50
     acc_per_fold = []
     loss_per_fold = []
-
-    f = open(output_path+filename, "w+")
 
     train_datagen=ImageDataGenerator(rescale=1./255)
 
@@ -53,10 +51,9 @@ try:
         network.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
         print('------------------------------------------------------------------------')
-        f.write('------------------------------------------------------------------------')
         print(f'Training for fold {fold_no} ...')
-        f.write(f'Training for fold {fold_no} ...')
-
+        f.write(f'\nTraining for fold {fold_no} ...')
+        f.write('\n------------------------------------------------------------------------')
 
         network.fit(x[train], y[train], epochs=epochs)
 
@@ -78,7 +75,7 @@ try:
         # Generate generalization metrics
         scores = network.evaluate(x[test], y[test], verbose=0)
         print(f'Score for fold {fold_no}: {network.metrics_names[0]} of {scores[0]}; {network.metrics_names[1]} of {scores[1]*100}%')
-        f.write(f'Score for fold {fold_no}: {network.metrics_names[0]} of {scores[0]}; {network.metrics_names[1]} of {scores[1]*100}%')
+        f.write(f'\nScore for fold {fold_no}: {network.metrics_names[0]} of {scores[0]}; {network.metrics_names[1]} of {scores[1]*100}%')
         acc_per_fold.append(scores[1] * 100)
         loss_per_fold.append(scores[0])
 
@@ -87,10 +84,14 @@ try:
 
     print("\n\n Overall accuracy: " + str(np.average(acc_per_fold)))
     print("Overall loss: " + str(np.average(loss_per_fold)))
-    f.write("\n\n Overall accuracy: " + str(np.average(acc_per_fold)))
-    f.write("Overall loss: " + str(np.average(loss_per_fold)))
+
+    f.write("\n\nOverall accuracy: " + str(np.average(acc_per_fold)))
+    f.write("\nOverall loss: " + str(np.average(loss_per_fold)))
+    f.write('\n\n===========================================\n')
 
 except Exception as e:
-    print('an exception occured: ' + e + '\n' + e.args)
+    print(type(e))    # the exception instance
+    print(e.args)     # arguments stored in .args
+    print(e)          # __str__ allows args to be printed directly,
 finally:
     f.close()
