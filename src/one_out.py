@@ -10,8 +10,8 @@ from keras import layers
 from sklearn.model_selection import KFold
 import numpy as np
 
-train_path = "../data/hsqc/train/"
-test_path = "../data/hsqc/test/"
+train_path = "../data/hsqc/all/"
+# test_path = "../data/hsqc/test/"
 
 num_folds = 5
 epochs = 50
@@ -21,13 +21,10 @@ loss_per_fold = []
 train_datagen=ImageDataGenerator(rescale=1./255)
 
 data=train_datagen.flow_from_directory( directory=train_path,
-                                        target_size=(300,205), batch_size=70,
+                                        target_size=(300,205), batch_size=1000,
                                         color_mode='grayscale',class_mode='categorical')
 
 x, y = data.next()
-
-print(x.shape)
-print(y.shape)
 
 print("Defining the K-fold Cross Validator")
 kfold = KFold(n_splits=num_folds, shuffle=True)
