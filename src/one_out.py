@@ -7,7 +7,7 @@ from keras.preprocessing import image
 from keras import models
 from keras import layers
 
-from sklearn.model_selection import KFold
+from sklearn.model_selection import StratifiedKFold, KFold
 import numpy as np
 
 train_path = "../data/hsqc/all/"
@@ -16,8 +16,16 @@ output_path = "../output/"
 filename = str(strftime("%a%d%b%Y_at_%H%M", gmtime())) + ".txt"
 f = open(output_path+filename, "w+")
 
+def turn_categorical_to_one_d_array(cat_array):
+    one_d_array = []
+    for i in range(len(cat_array)):
+        for item_no in range(len(cat_array[i])):
+            if cat_array[i][item_no] == 1:
+                one_d_array.append(item_no)
+    return one_d_array
+
 try:
-    num_folds = 5
+    num_folds = 10
     epochs = 50
     acc_per_fold = []
     loss_per_fold = []
@@ -31,10 +39,11 @@ try:
     x, y = data.next()
 
     print("Defining the K-fold Cross Validator")
-    kfold = KFold(n_splits=num_folds, shuffle=True)
+    kfold = StratifiedKFold(n_splits=num_folds, shuffle=True)
+    encoded_y = turn_categorical_to_one_d_array(y)
 
     fold_no = 1
-    for train, test in kfold.split(x, y):
+    for train, test in kfold.split(x, encoded_y):
         #network
         network=models.Sequential()
         network.add(layers.Conv2D(32, 3, activation='relu', input_shape=(300, 205, 1)))
