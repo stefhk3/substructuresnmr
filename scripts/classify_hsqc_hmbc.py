@@ -9,7 +9,7 @@ from tensorflow import keras
 import numpy as np
 
 from sklearn.model_selection import StratifiedKFold, KFold
-from sklearn.preprocessing import LabelEncoder
+
 
 
 
