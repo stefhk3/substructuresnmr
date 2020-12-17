@@ -43,8 +43,6 @@ def turn_categorical_to_one_d_array(cat_array):
                 one_d_array.append(item_no)
     return one_d_array
 
-print(turn_categorical_to_one_d_array([[0,0,1,0],[1,0,0,0],[1,0,0,0],[0,0,1,0],[0,0,0,1]]))
-
 try:
     for i in range(len(num_folds)):
         print('-----------------------------------')
