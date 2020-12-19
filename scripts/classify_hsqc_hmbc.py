@@ -5,8 +5,12 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras import models
 from tensorflow.keras import layers
 from tensorflow import keras
+
 import numpy as np
-from sklearn.model_selection import KFold
+
+from sklearn.model_selection import StratifiedKFold, KFold
+
+
 
 
 #This script needs the hmbc and hsqc spectrum from each compound. Either remove the hsqc spectra without hmbc, or add blank images for hmbc to make them match
@@ -31,6 +35,14 @@ output_path = "../output/"
 filename = str(strftime("%a%d%b%Y_at_%H%M", gmtime())) + ".txt"
 f = open(output_path+filename, "w+")
 
+def turn_categorical_to_one_d_array(cat_array):
+    one_d_array = []
+    for i in range(len(cat_array)):
+        for item_no in range(len(cat_array[i])):
+            if cat_array[i][item_no] == 1:
+                one_d_array.append(item_no)
+    return one_d_array
+
 try:
     for i in range(len(num_folds)):
         print('-----------------------------------')
@@ -40,9 +52,11 @@ try:
         print('-----------------------------------')
         f.write('\n-----------------------------------')
         #cross validation
-        kfold = KFold(n_splits=num_folds[i], shuffle=False)
+        kfold = StratifiedKFold(n_splits=num_folds[i], shuffle=False)
         fold_no = 1
-        for train, test in kfold.split(hmbc_imgs, hmbc_targets):
+        encoded_hmbc_targets = turn_categorical_to_one_d_array(hmbc_targets)
+        
+        for train, test in kfold.split(hmbc_imgs, encoded_hmbc_targets):
             #setting up the model
             hmbc_input = keras.Input(
                 shape=(300, 205, 1), name="hmbc"
