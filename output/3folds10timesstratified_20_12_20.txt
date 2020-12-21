@@ -1,0 +1,3337 @@
+10 runs of 3 folds, average accuracy 90.01
+
+(eda) shk3@shk3-VirtualBox:~/git.bak/substructuresnmr/scripts$ python3 combined.py 
+Found 82 images belonging to 3 classes.
+Found 82 images belonging to 3 classes.
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+2020-12-20 12:43:20.366792: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-20 12:43:20.632447: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2495995000 Hz
+2020-12-20 12:43:20.640254: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ebe244dd50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-20 12:43:20.640438: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-20 12:43:20.651512: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.3977 - accuracy: 0.3519
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2637 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3930 - accuracy: 0.3519
+Epoch 4/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0947 - accuracy: 0.3704
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0998 - accuracy: 0.3333
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0931 - accuracy: 0.3333
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0852 - accuracy: 0.3704
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0771 - accuracy: 0.4815
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0682 - accuracy: 0.3519
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0463 - accuracy: 0.3333
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0204 - accuracy: 0.5185
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9438 - accuracy: 0.7037
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8668 - accuracy: 0.7037
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7550 - accuracy: 0.7593
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6314 - accuracy: 0.7407
+Epoch 16/50
+2/2 [==============================] - 3s 2s/step - loss: 0.4589 - accuracy: 0.9444
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3049 - accuracy: 0.9259
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1742 - accuracy: 0.9815
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1181 - accuracy: 0.9815
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0553 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0393 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0164 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0172 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0104 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0054 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0053 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0035 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0014 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 5.8958e-04 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 8.7404e-04 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 7.0085e-04 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2710e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3320e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3133e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3649e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 5s 2s/step - loss: 1.4144e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3017e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 9.9529e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 8.7063e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 6.6400e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 5.2833e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 4.1784e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 3.7271e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 6s 3s/step - loss: 3.5669e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 3.4351e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 3.4616e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2752e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 3.1305e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 3.0332e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 5s 2s/step - loss: 2.8453e-05 - accuracy: 1.0000
+Score for fold 1: loss of 1.161372423171997; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1252_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5212 - accuracy: 0.2909
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4161 - accuracy: 0.2727
+Epoch 3/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1393 - accuracy: 0.2909
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0630 - accuracy: 0.4545
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0251 - accuracy: 0.3636
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9138 - accuracy: 0.5636
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7658 - accuracy: 0.8000
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 0.5665 - accuracy: 0.7818
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3780 - accuracy: 0.8727
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2329 - accuracy: 0.9273
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1153 - accuracy: 1.0000
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1459 - accuracy: 0.9455
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0809 - accuracy: 0.9636
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0318 - accuracy: 1.0000
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0140 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0260 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0131 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0138 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0026 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 9.4595e-04 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0014 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 2.8567e-04 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4217e-04 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 8.4217e-04 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 9.9443e-05 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1565e-04 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2984e-04 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7720e-04 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 4.1156e-05 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2968e-05 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 2.8310e-05 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 4.4764e-05 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 4.9451e-05 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 3.8994e-05 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2764e-05 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 1.8054e-05 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2192e-05 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 9.2563e-06 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 7.2367e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 5s 2s/step - loss: 6.8791e-06 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 6.1076e-06 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 5.9797e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 5s 2s/step - loss: 5.7218e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 5.2580e-06 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 5s 2s/step - loss: 4.9308e-06 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 4.4475e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 3.8840e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 3.4527e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 3.0474e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 2.7526e-06 - accuracy: 1.0000
+Score for fold 2: loss of 0.32392457127571106; accuracy of 92.59259104728699%
+92.59259104728699
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1300_acc_92.59259104728699.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2848 - accuracy: 0.3273
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2496 - accuracy: 0.3636
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1140 - accuracy: 0.3091
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0977 - accuracy: 0.3273
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1115 - accuracy: 0.2182
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0953 - accuracy: 0.3636
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0887 - accuracy: 0.3273
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0824 - accuracy: 0.4182
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0546 - accuracy: 0.4727
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0287 - accuracy: 0.7455
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9991 - accuracy: 0.4545
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9407 - accuracy: 0.6727
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8060 - accuracy: 0.9455
+Epoch 14/50
+2/2 [==============================] - 5s 3s/step - loss: 0.6893 - accuracy: 0.8000
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.5097 - accuracy: 0.8727
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3487 - accuracy: 0.9273
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2514 - accuracy: 0.9636
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1458 - accuracy: 0.9455
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0728 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0436 - accuracy: 0.9818
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0222 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0115 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0041 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0070 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0096 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1044 - accuracy: 0.9636 
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2264 - accuracy: 0.9091
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0068 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1292 - accuracy: 0.9455
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0503 - accuracy: 0.9818
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0500 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0573 - accuracy: 0.9818
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0181 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 5s 3s/step - loss: 0.0127 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0091 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0030 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0012 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 4.5902e-04 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2376e-04 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 1.9428e-04 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 9.9055e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 8.6211e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 8.8169e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 6.2339e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 5.1908e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 4.4715e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 4.1060e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 3.9968e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 4.0931e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 3.8731e-05 - accuracy: 1.0000
+Score for fold 3: loss of 1.2999557256698608; accuracy of 88.88888955116272%
+88.88888955116272
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1309_acc_88.88888955116272.h5
+
+
+Overall accuracy: 90.25573134422302
+Overall loss: 0.928417573372523
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.6208 - accuracy: 0.3519
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4264 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2221 - accuracy: 0.1852
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1109 - accuracy: 0.3333
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0965 - accuracy: 0.3148
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0800 - accuracy: 0.2963
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0392 - accuracy: 0.6296
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9690 - accuracy: 0.6852
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8397 - accuracy: 0.7778
+Epoch 10/50
+2/2 [==============================] - 5s 2s/step - loss: 0.7124 - accuracy: 0.7407
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.5046 - accuracy: 0.8333
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2721 - accuracy: 0.9815
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1077 - accuracy: 0.9815
+Epoch 14/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0437 - accuracy: 0.9815
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0384 - accuracy: 0.9815
+Epoch 16/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0438 - accuracy: 0.9815
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0560 - accuracy: 0.9815
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0172 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0019 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0128 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0028 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 5s 3s/step - loss: 0.0038 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0033 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0024 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0014 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 7.4499e-04 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2208e-04 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 5s 2s/step - loss: 1.8152e-04 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1658e-04 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 7s 4s/step - loss: 5.2948e-05 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 8s 4s/step - loss: 3.8692e-05 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 8s 4s/step - loss: 2.5720e-05 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 8s 4s/step - loss: 2.2631e-05 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 7s 3s/step - loss: 2.2742e-05 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 9s 4s/step - loss: 2.1969e-05 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 7s 4s/step - loss: 1.9597e-05 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 7s 4s/step - loss: 1.6961e-05 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 8s 4s/step - loss: 1.5473e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 7s 4s/step - loss: 1.5544e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 6s 3s/step - loss: 1.6173e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 5s 3s/step - loss: 1.6255e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 7s 3s/step - loss: 1.4125e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 6s 3s/step - loss: 1.2836e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 6s 3s/step - loss: 1.1320e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 7s 4s/step - loss: 1.0150e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 8.9975e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 7.6687e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 6.5474e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 5.8234e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0596e-06 - accuracy: 1.0000
+Score for fold 1: loss of 0.8017145395278931; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1319_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5176 - accuracy: 0.2909
+Epoch 2/50
+2/2 [==============================] - 5s 2s/step - loss: 1.3418 - accuracy: 0.3273
+Epoch 3/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1075 - accuracy: 0.3273
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1018 - accuracy: 0.2909
+Epoch 5/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0909 - accuracy: 0.3455
+Epoch 6/50
+2/2 [==============================] - 5s 3s/step - loss: 1.0782 - accuracy: 0.3455
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0499 - accuracy: 0.4909
+Epoch 8/50
+2/2 [==============================] - 5s 2s/step - loss: 0.9996 - accuracy: 0.5818
+Epoch 9/50
+2/2 [==============================] - 7s 4s/step - loss: 0.9159 - accuracy: 0.4727
+Epoch 10/50
+2/2 [==============================] - 8s 4s/step - loss: 0.7572 - accuracy: 0.8182
+Epoch 11/50
+2/2 [==============================] - 9s 4s/step - loss: 0.5232 - accuracy: 0.9091
+Epoch 12/50
+2/2 [==============================] - 8s 4s/step - loss: 0.3764 - accuracy: 0.9091
+Epoch 13/50
+2/2 [==============================] - 8s 4s/step - loss: 0.2704 - accuracy: 0.9091
+Epoch 14/50
+2/2 [==============================] - 8s 4s/step - loss: 0.1292 - accuracy: 0.9818
+Epoch 15/50
+2/2 [==============================] - 9s 4s/step - loss: 0.0386 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0159 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 9s 4s/step - loss: 0.0087 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0130 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 8s 4s/step - loss: 1.2738e-04 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0089 - accuracy: 1.0000 
+Epoch 21/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0023 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 8s 4s/step - loss: 3.8358e-04 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0025 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 8s 4s/step - loss: 1.0466e-04 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 8s 4s/step - loss: 5.6944e-05 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 8s 4s/step - loss: 4.6934e-05 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 7s 4s/step - loss: 4.5685e-05 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 8s 4s/step - loss: 4.1540e-05 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 8s 4s/step - loss: 3.1521e-05 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 9s 4s/step - loss: 1.7377e-05 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 8s 4s/step - loss: 7.8977e-06 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 8s 4s/step - loss: 3.8514e-06 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 9s 5s/step - loss: 1.5909e-06 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 8s 4s/step - loss: 9.1032e-07 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 8s 4s/step - loss: 3.9447e-07 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 9s 4s/step - loss: 1.4955e-07 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 8s 4s/step - loss: 1.8640e-07 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 8s 4s/step - loss: 2.1458e-07 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 9s 4s/step - loss: 4.4865e-07 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 8s 4s/step - loss: 1.0707e-06 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 8s 4s/step - loss: 5.7870e-07 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 9s 5s/step - loss: 2.1674e-07 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 8s 4s/step - loss: 1.1271e-07 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 8s 4s/step - loss: 8.0195e-08 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 8s 4s/step - loss: 7.1525e-08 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 8s 4s/step - loss: 7.5860e-08 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 8s 4s/step - loss: 7.1526e-08 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 8s 4s/step - loss: 7.8028e-08 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 5s 3s/step - loss: 8.2363e-08 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 5s 2s/step - loss: 8.6698e-08 - accuracy: 1.0000
+Score for fold 2: loss of 0.3879672884941101; accuracy of 96.29629850387573%
+96.29629850387573
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1335_acc_96.29629850387573.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 2.9560 - accuracy: 0.3273
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1556 - accuracy: 0.3636
+Epoch 3/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1757 - accuracy: 0.2182
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1108 - accuracy: 0.3636
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1225 - accuracy: 0.3636
+Epoch 6/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0920 - accuracy: 0.3273
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0945 - accuracy: 0.2909
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1120 - accuracy: 0.3273
+Epoch 9/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0678 - accuracy: 0.4909
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0767 - accuracy: 0.3636
+Epoch 11/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0479 - accuracy: 0.3636
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0130 - accuracy: 0.8727
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9541 - accuracy: 0.7818
+Epoch 14/50
+2/2 [==============================] - 5s 2s/step - loss: 0.8547 - accuracy: 0.5818
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7220 - accuracy: 0.9636
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.5268 - accuracy: 0.9636
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3494 - accuracy: 0.9273
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1910 - accuracy: 0.9636
+Epoch 19/50
+2/2 [==============================] - 5s 2s/step - loss: 0.1029 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0759 - accuracy: 0.9818
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0775 - accuracy: 0.9636
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0453 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0734 - accuracy: 0.9818
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0484 - accuracy: 0.9818
+Epoch 25/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0452 - accuracy: 0.9818
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0253 - accuracy: 0.9818
+Epoch 27/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0158 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0139 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0185 - accuracy: 0.9818
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0336 - accuracy: 0.9818
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0168 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 5s 3s/step - loss: 0.0149 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0542 - accuracy: 0.9818
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0335 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0434 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0237 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0406 - accuracy: 0.9818
+Epoch 38/50
+2/2 [==============================] - 6s 3s/step - loss: 0.0060 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0173 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0024 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0058 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0100 - accuracy: 1.0000 
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0015 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0019 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0071 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0014 - accuracy: 1.0000 
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 6.6829e-04 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4474e-04 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 7.1349e-04 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 9.2235e-04 - accuracy: 1.0000
+Score for fold 3: loss of 0.6459102630615234; accuracy of 88.88888955116272%
+88.88888955116272
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1343_acc_88.88888955116272.h5
+
+
+Overall accuracy: 90.87301592032115
+Overall loss: 0.7701408018668493
+
+(eda) shk3@shk3-VirtualBox:~/git.bak/substructuresnmr/scripts$ python3 combined.py 
+Found 82 images belonging to 3 classes.
+Found 82 images belonging to 3 classes.
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+2020-12-20 15:49:27.492974: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-20 15:49:28.203014: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2495995000 Hz
+2020-12-20 15:49:28.203405: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5559998b3d50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-20 15:49:28.203500: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-20 15:49:28.287383: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 8s 4s/step - loss: 2.9261 - accuracy: 0.3519
+Epoch 2/50
+2/2 [==============================] - 7s 3s/step - loss: 2.1673 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 7s 3s/step - loss: 1.1541 - accuracy: 0.3519
+Epoch 4/50
+2/2 [==============================] - 7s 4s/step - loss: 1.1416 - accuracy: 0.2407
+Epoch 5/50
+2/2 [==============================] - 7s 3s/step - loss: 1.0927 - accuracy: 0.3333
+Epoch 6/50
+2/2 [==============================] - 10s 5s/step - loss: 1.0953 - accuracy: 0.3333
+Epoch 7/50
+2/2 [==============================] - 23s 11s/step - loss: 1.1060 - accuracy: 0.2778
+Epoch 8/50
+2/2 [==============================] - 12s 6s/step - loss: 1.0781 - accuracy: 0.3889
+Epoch 9/50
+2/2 [==============================] - 7s 3s/step - loss: 1.0772 - accuracy: 0.3519
+Epoch 10/50
+2/2 [==============================] - 7s 3s/step - loss: 1.0559 - accuracy: 0.4259
+Epoch 11/50
+2/2 [==============================] - 10s 5s/step - loss: 1.0411 - accuracy: 0.3704
+Epoch 12/50
+2/2 [==============================] - 8s 4s/step - loss: 0.9745 - accuracy: 0.7222
+Epoch 13/50
+2/2 [==============================] - 9s 4s/step - loss: 0.9464 - accuracy: 0.4630
+Epoch 14/50
+2/2 [==============================] - 8s 4s/step - loss: 0.8439 - accuracy: 0.7963
+Epoch 15/50
+2/2 [==============================] - 8s 4s/step - loss: 0.5820 - accuracy: 0.8333
+Epoch 16/50
+2/2 [==============================] - 7s 4s/step - loss: 0.4812 - accuracy: 0.8704
+Epoch 17/50
+2/2 [==============================] - 10s 5s/step - loss: 0.3165 - accuracy: 0.9259
+Epoch 18/50
+2/2 [==============================] - 7s 3s/step - loss: 0.2551 - accuracy: 0.9259
+Epoch 19/50
+2/2 [==============================] - 7s 4s/step - loss: 0.1332 - accuracy: 0.9630
+Epoch 20/50
+2/2 [==============================] - 7s 3s/step - loss: 0.1044 - accuracy: 0.9259
+Epoch 21/50
+2/2 [==============================] - 7s 3s/step - loss: 0.0606 - accuracy: 0.9815
+Epoch 22/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0460 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0376 - accuracy: 0.9815
+Epoch 24/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0065 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 9s 5s/step - loss: 0.0122 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0075 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 9s 4s/step - loss: 0.0032 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0057 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0012 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 8.1226e-04 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0012 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 5s 3s/step - loss: 8.9717e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 2.9806e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 6s 3s/step - loss: 1.5939e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5472e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 3s 2s/step - loss: 2.1018e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 3s 2s/step - loss: 1.9914e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2749e-04 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 3s 2s/step - loss: 8.3318e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 3s 2s/step - loss: 5.4879e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 5.5049e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 3s 2s/step - loss: 6.3829e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 3s 2s/step - loss: 5.3841e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 3s 2s/step - loss: 4.0602e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 3s 2s/step - loss: 4.8449e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 3s 2s/step - loss: 2.5013e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 3s 2s/step - loss: 2.3218e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1985e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 3s 2s/step - loss: 1.6226e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 3s 2s/step - loss: 1.4193e-05 - accuracy: 1.0000
+Score for fold 1: loss of 1.137877106666565; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1603_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 5.2259 - accuracy: 0.2364
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.6529 - accuracy: 0.3455
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2428 - accuracy: 0.3455
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1101 - accuracy: 0.3455
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1343 - accuracy: 0.3455
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1215 - accuracy: 0.2727
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1049 - accuracy: 0.3455
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0938 - accuracy: 0.3818
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1185 - accuracy: 0.3455
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1025 - accuracy: 0.4364
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0965 - accuracy: 0.3636
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0976 - accuracy: 0.3455
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0918 - accuracy: 0.3636
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0841 - accuracy: 0.3636
+Epoch 15/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0828 - accuracy: 0.3636
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0646 - accuracy: 0.3818
+Epoch 17/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0577 - accuracy: 0.5636
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0121 - accuracy: 0.8727
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9253 - accuracy: 0.8000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8253 - accuracy: 0.7091
+Epoch 21/50
+2/2 [==============================] - 5s 2s/step - loss: 0.6098 - accuracy: 0.9091
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6472 - accuracy: 0.7273
+Epoch 23/50
+2/2 [==============================] - 5s 3s/step - loss: 0.4761 - accuracy: 0.8364
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2541 - accuracy: 0.9636
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2286 - accuracy: 0.9273
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1222 - accuracy: 0.9636
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1409 - accuracy: 0.9636
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0849 - accuracy: 0.9818
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0405 - accuracy: 0.9818
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0453 - accuracy: 0.9636
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0086 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0093 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0081 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0061 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0027 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0014 - accuracy: 1.0000 
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 8.1477e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 3.7357e-04 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 9.5546e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 5.4029e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0300e-04 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 8.6727e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 4.7583e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0488e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0969e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5281e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 1.9420e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 2.3266e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 2.0555e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4141e-05 - accuracy: 1.0000
+Score for fold 2: loss of 0.2176092118024826; accuracy of 96.29629850387573%
+96.29629850387573
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1610_acc_96.29629850387573.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 1.8903 - accuracy: 0.2909
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2678 - accuracy: 0.2727
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1198 - accuracy: 0.2545
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0830 - accuracy: 0.3455
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9706 - accuracy: 0.7273
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7916 - accuracy: 0.6364
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6195 - accuracy: 0.6364
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3684 - accuracy: 0.8727
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2384 - accuracy: 0.9273
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1838 - accuracy: 0.9273
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0537 - accuracy: 0.9818
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0428 - accuracy: 0.9636
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0487 - accuracy: 1.0000
+Epoch 14/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0159 - accuracy: 1.0000
+Epoch 15/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0213 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0048 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0086 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0020 - accuracy: 1.0000 
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 3.9987e-04 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 4.7601e-04 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 7.1369e-04 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0032e-04 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3089e-04 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 4.3059e-05 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0790e-04 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 2.8670e-04 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1657e-04 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 5.9655e-05 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 2.8191e-05 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 4.0285e-05 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 4.5261e-05 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 5.5223e-05 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 3s 2s/step - loss: 5.5335e-05 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 4.6605e-05 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 3.3184e-05 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 3s 2s/step - loss: 2.8732e-05 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 2.0532e-05 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4788e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4533e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 3s 2s/step - loss: 1.3352e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2088e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2483e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2522e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2808e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2885e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2810e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2402e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2231e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1599e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1176e-05 - accuracy: 1.0000
+Score for fold 3: loss of 2.08316969871521; accuracy of 88.88888955116272%
+88.88888955116272
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1618_acc_88.88888955116272.h5
+
+
+Overall accuracy: 91.49030049641927
+Overall loss: 1.1462186723947525
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.5777 - accuracy: 0.2593
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.6008 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1278 - accuracy: 0.2407
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1557 - accuracy: 0.3519
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1082 - accuracy: 0.3148
+Epoch 6/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1074 - accuracy: 0.3519
+Epoch 7/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1020 - accuracy: 0.3519
+Epoch 8/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0958 - accuracy: 0.3333
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0694 - accuracy: 0.4074
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0488 - accuracy: 0.3519
+Epoch 11/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0109 - accuracy: 0.4259
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9297 - accuracy: 0.7593
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7817 - accuracy: 0.9815
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6102 - accuracy: 0.7593
+Epoch 15/50
+2/2 [==============================] - 3s 2s/step - loss: 0.3774 - accuracy: 0.9630
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2024 - accuracy: 0.9630
+Epoch 17/50
+2/2 [==============================] - 3s 2s/step - loss: 0.1124 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0581 - accuracy: 0.9815
+Epoch 19/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0421 - accuracy: 0.9815
+Epoch 20/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0075 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0102 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0081 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0050 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0023 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0038 - accuracy: 1.0000 
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0055 - accuracy: 1.0000 
+Epoch 27/50
+2/2 [==============================] - 3s 2s/step - loss: 6.7704e-04 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 3s 2s/step - loss: 4.0659e-04 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0030 - accuracy: 1.0000 
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 4.0692e-04 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0527e-04 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 3s 2s/step - loss: 4.0786e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 9.1633e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 3s 2s/step - loss: 5.5748e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0381e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 3s 2s/step - loss: 6.0464e-05 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 3s 2s/step - loss: 3.1377e-05 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 3s 2s/step - loss: 1.8933e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 3s 2s/step - loss: 1.5283e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1927e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0672e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0968e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 3s 2s/step - loss: 1.5026e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 3s 2s/step - loss: 1.7222e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 3s 2s/step - loss: 1.6898e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 3s 2s/step - loss: 1.4550e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2501e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 3s 2s/step - loss: 9.0959e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 3s 2s/step - loss: 6.6220e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 3s 2s/step - loss: 4.5341e-06 - accuracy: 1.0000
+Score for fold 1: loss of 1.3274593353271484; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1625_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 2.5087 - accuracy: 0.3273
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6153 - accuracy: 0.3455
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0994 - accuracy: 0.4727
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1331 - accuracy: 0.3636
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0882 - accuracy: 0.4182
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0641 - accuracy: 0.3818
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0287 - accuracy: 0.4000
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9675 - accuracy: 0.5091
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7618 - accuracy: 0.9091
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6170 - accuracy: 0.9091
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3812 - accuracy: 0.9455
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2358 - accuracy: 0.9636
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1276 - accuracy: 0.9636
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0376 - accuracy: 1.0000
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0212 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0118 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0018 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 8.4456e-04 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 7.5899e-04 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 3s 2s/step - loss: 2.1112e-04 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 4.1825e-05 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0018e-05 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 5.7183e-05 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 2.7105e-05 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7457e-05 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 6.2760e-06 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 2.5791e-06 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0924e-06 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 4.4216e-07 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 3.0344e-07 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 1.9507e-07 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3655e-07 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 9.1032e-08 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 8.0195e-08 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 6.0688e-08 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 4.9851e-08 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 4.3349e-08 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 3.9014e-08 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2512e-08 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6009e-08 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 2.3842e-08 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-08 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-08 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7340e-08 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7340e-08 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7340e-08 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5172e-08 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5172e-08 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5172e-08 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5172e-08 - accuracy: 1.0000
+Score for fold 2: loss of 0.17325074970722198; accuracy of 96.29629850387573%
+96.29629850387573
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1632_acc_96.29629850387573.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 1.8880 - accuracy: 0.3636
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3395 - accuracy: 0.3273
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1195 - accuracy: 0.3273
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1020 - accuracy: 0.3091
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1159 - accuracy: 0.3273
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0980 - accuracy: 0.4000
+Epoch 7/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0925 - accuracy: 0.3636
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0856 - accuracy: 0.4545
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0734 - accuracy: 0.4909
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0430 - accuracy: 0.6000
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0009 - accuracy: 0.5818
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9201 - accuracy: 0.6182
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7278 - accuracy: 0.5818
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4900 - accuracy: 0.8727
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4277 - accuracy: 0.7636
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3045 - accuracy: 0.9091
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1923 - accuracy: 0.9273
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1455 - accuracy: 0.9273
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1249 - accuracy: 0.9273
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0808 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0816 - accuracy: 0.9636
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0307 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0218 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0129 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0095 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0045 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0047 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 5.3474e-04 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0217 - accuracy: 1.0000 
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0930 - accuracy: 0.9636
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0033 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0142 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0097 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0119 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0110 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0192 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0124 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0106 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0072 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0034 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0022 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0014 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 4.2360e-04 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6774e-04 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4507e-04 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 3.4291e-04 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 2.8873e-04 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 7.4126e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 7.5595e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 3s 2s/step - loss: 8.7754e-05 - accuracy: 1.0000
+Score for fold 3: loss of 1.9210641384124756; accuracy of 88.88888955116272%
+88.88888955116272
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1640_acc_88.88888955116272.h5
+
+
+Overall accuracy: 91.49030049641927
+Overall loss: 1.1434050401051838
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2794 - accuracy: 0.2963
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1092 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1229 - accuracy: 0.2963
+Epoch 4/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1393 - accuracy: 0.2778
+Epoch 5/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1021 - accuracy: 0.3519
+Epoch 6/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0968 - accuracy: 0.3519
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0771 - accuracy: 0.4074
+Epoch 8/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0916 - accuracy: 0.5556
+Epoch 9/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0372 - accuracy: 0.6481
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 0.9680 - accuracy: 0.6667
+Epoch 11/50
+2/2 [==============================] - 3s 2s/step - loss: 0.8501 - accuracy: 0.7963
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6214 - accuracy: 0.8889
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4402 - accuracy: 0.8704
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3457 - accuracy: 0.8889
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3110 - accuracy: 0.8889
+Epoch 16/50
+2/2 [==============================] - 3s 2s/step - loss: 0.1427 - accuracy: 0.9815
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0591 - accuracy: 0.9815
+Epoch 18/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0282 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0165 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0640 - accuracy: 0.9815
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0045 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0597 - accuracy: 0.9815 
+Epoch 23/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0093 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0208 - accuracy: 0.9815
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0037 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0052 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0024 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0016 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0016 - accuracy: 1.0000 
+Epoch 30/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0011 - accuracy: 1.0000 
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0012 - accuracy: 1.0000 
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 5.5046e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 9.9848e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 6.1509e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7905e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 3s 2s/step - loss: 3.4441e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2546e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2747e-04 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1646e-04 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 3s 2s/step - loss: 1.2355e-04 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3089e-04 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2889e-04 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1290e-04 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 7.7776e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 6.6162e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 6.5301e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 7.7040e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 3s 2s/step - loss: 6.8565e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 5.9106e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 3s 2s/step - loss: 5.3045e-05 - accuracy: 1.0000
+Score for fold 1: loss of 0.779338538646698; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1647_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 6.0549 - accuracy: 0.3455
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2172 - accuracy: 0.3091
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1505 - accuracy: 0.3455
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0995 - accuracy: 0.3091
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1091 - accuracy: 0.4364
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0639 - accuracy: 0.6364
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0286 - accuracy: 0.3636
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0371 - accuracy: 0.4909
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9190 - accuracy: 0.6545
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8418 - accuracy: 0.6364
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6351 - accuracy: 0.8909
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4922 - accuracy: 0.8909
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3520 - accuracy: 0.9091
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1796 - accuracy: 0.9636
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1630 - accuracy: 0.9455
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0912 - accuracy: 0.9818
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0578 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0223 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0080 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0076 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0030 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 5.3467e-04 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 5.5963e-04 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 4.5458e-04 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 2.3704e-04 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 7.6438e-05 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 3.4535e-05 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 2.3398e-05 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2923e-05 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 9.5489e-06 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 7.4878e-06 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 7.5678e-06 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 7.5330e-06 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 7.5502e-06 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 7.3292e-06 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 6.6748e-06 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 6.2761e-06 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 5.4938e-06 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 4.4992e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 4.1525e-06 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 3.5760e-06 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 3.1123e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 2.7482e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4513e-06 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2194e-06 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 2.0308e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 1.8835e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7621e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 1.6667e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 3s 2s/step - loss: 1.5887e-06 - accuracy: 1.0000
+Score for fold 2: loss of 0.11007259786128998; accuracy of 92.59259104728699%
+92.59259104728699
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1655_acc_92.59259104728699.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4870 - accuracy: 0.3636
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2059 - accuracy: 0.3273
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1227 - accuracy: 0.2909
+Epoch 4/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0760 - accuracy: 0.4182
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0136 - accuracy: 0.7273
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9256 - accuracy: 0.5091
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9322 - accuracy: 0.6364
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6163 - accuracy: 0.9091
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4335 - accuracy: 0.8909
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 0.2214 - accuracy: 0.9636
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2856 - accuracy: 0.8182
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2221 - accuracy: 0.9273
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1482 - accuracy: 0.9455
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1377 - accuracy: 0.9455
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1055 - accuracy: 0.9455
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0570 - accuracy: 0.9818
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0556 - accuracy: 0.9818
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0241 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0290 - accuracy: 0.9818
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0165 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0149 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0082 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0073 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0052 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0037 - accuracy: 1.0000 
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0033 - accuracy: 1.0000 
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0021 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0016 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0020 - accuracy: 1.0000 
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0013 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 5s 2s/step - loss: 6.3680e-04 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 7s 4s/step - loss: 5.7068e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 7s 3s/step - loss: 4.7673e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 6s 3s/step - loss: 2.8517e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 6s 3s/step - loss: 2.5076e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 6s 3s/step - loss: 2.2291e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 6s 3s/step - loss: 1.6113e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 6s 3s/step - loss: 1.7135e-04 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 5s 3s/step - loss: 1.4617e-04 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1215e-04 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 5s 3s/step - loss: 9.8222e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 6s 3s/step - loss: 9.2103e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 6s 3s/step - loss: 7.8428e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 6s 3s/step - loss: 6.7114e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 5s 3s/step - loss: 6.3721e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 6s 3s/step - loss: 5.9409e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 5s 2s/step - loss: 5.6105e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 5s 3s/step - loss: 5.2269e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 6s 3s/step - loss: 4.8463e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 6s 3s/step - loss: 4.5016e-05 - accuracy: 1.0000
+Score for fold 3: loss of 2.617032051086426; accuracy of 85.18518805503845%
+85.18518805503845
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1704_acc_85.18518805503845.h5
+
+
+Overall accuracy: 90.66725505722894
+Overall loss: 1.1518748253583908
+
+(eda) shk3@shk3-VirtualBox:~/git.bak/substructuresnmr/scripts$ python3 combined.py 
+Found 82 images belonging to 3 classes.
+Found 82 images belonging to 3 classes.
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+2020-12-20 19:07:43.167883: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-20 19:07:43.554908: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2495995000 Hz
+2020-12-20 19:07:43.556428: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55bedee24d50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-20 19:07:43.556626: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-20 19:07:43.651272: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 5s 2s/step - loss: 3.7521 - accuracy: 0.3519
+Epoch 2/50
+2/2 [==============================] - 5s 2s/step - loss: 1.3033 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1093 - accuracy: 0.3519
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1183 - accuracy: 0.4259
+Epoch 5/50
+2/2 [==============================] - 5s 2s/step - loss: 1.2956 - accuracy: 0.3148
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0890 - accuracy: 0.3519
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0874 - accuracy: 0.4815
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0296 - accuracy: 0.4074
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9386 - accuracy: 0.6667
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7636 - accuracy: 0.8148
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.5186 - accuracy: 0.9259
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3584 - accuracy: 0.9259
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1865 - accuracy: 0.9630
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1480 - accuracy: 0.9444
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0339 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0300 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0096 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 5s 3s/step - loss: 0.0058 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0092 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0022 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0045 - accuracy: 1.0000 
+Epoch 22/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0128 - accuracy: 1.0000 
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0444 - accuracy: 0.9815 
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1084 - accuracy: 0.9630
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0531 - accuracy: 0.9815
+Epoch 26/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0048 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2211 - accuracy: 0.9259
+Epoch 28/50
+2/2 [==============================] - 6s 3s/step - loss: 0.4997 - accuracy: 0.8889
+Epoch 29/50
+2/2 [==============================] - 5s 3s/step - loss: 0.0188 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1372 - accuracy: 0.9444
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0652 - accuracy: 0.9815
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0583 - accuracy: 0.9630
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0256 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 6.7047e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1351 - accuracy: 0.9815 
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 9.0674e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0295 - accuracy: 0.9815
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0465 - accuracy: 0.9815
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0207 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 6s 3s/step - loss: 0.0108 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0062 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0078 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0022 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0018 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0058 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0043 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0016 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 8.0738e-04 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 7.0812e-04 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0020 - accuracy: 1.0000 
+Score for fold 1: loss of 0.7156276702880859; accuracy of 85.71428656578064%
+85.71428656578064
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1916_acc_85.71428656578064.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 4.2154 - accuracy: 0.2000
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1983 - accuracy: 0.3455
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1147 - accuracy: 0.2727
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1332 - accuracy: 0.3455
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0896 - accuracy: 0.3455
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0829 - accuracy: 0.6364
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0730 - accuracy: 0.6182
+Epoch 8/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0434 - accuracy: 0.4727
+Epoch 9/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1189 - accuracy: 0.4364
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9088 - accuracy: 0.7091
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8865 - accuracy: 0.5455
+Epoch 12/50
+2/2 [==============================] - 5s 2s/step - loss: 0.7280 - accuracy: 0.9455
+Epoch 13/50
+2/2 [==============================] - 5s 2s/step - loss: 0.4676 - accuracy: 0.9455
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2971 - accuracy: 0.9091
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1629 - accuracy: 0.9818
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1109 - accuracy: 0.9636
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0435 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0198 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0135 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0039 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0020 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0013 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0011 - accuracy: 1.0000 
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4165e-04 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2826e-05 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 5s 2s/step - loss: 1.6186e-05 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 5s 2s/step - loss: 6.0020e-05 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1572e-05 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 5s 2s/step - loss: 3.8709e-06 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 5s 2s/step - loss: 8.8069e-06 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 5s 2s/step - loss: 1.6719e-05 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1670e-05 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 5s 2s/step - loss: 3.5088e-06 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 5s 2s/step - loss: 1.6797e-06 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 5s 2s/step - loss: 1.8228e-06 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 5s 2s/step - loss: 2.0763e-06 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6788e-06 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6723e-06 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1760e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4998e-06 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 8.5396e-07 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 6.2855e-07 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0284e-07 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 4.8334e-07 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 4.5299e-07 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 4.7683e-07 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 4.9851e-07 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0934e-07 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0718e-07 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 4.9417e-07 - accuracy: 1.0000
+Score for fold 2: loss of 0.05669746547937393; accuracy of 96.29629850387573%
+96.29629850387573
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1925_acc_96.29629850387573.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2316 - accuracy: 0.3455
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.9291 - accuracy: 0.3273
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2100 - accuracy: 0.3455
+Epoch 4/50
+2/2 [==============================] - 5s 2s/step - loss: 1.2377 - accuracy: 0.2545
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1799 - accuracy: 0.2545
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0947 - accuracy: 0.3455
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1251 - accuracy: 0.3636
+Epoch 8/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1453 - accuracy: 0.3273
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1027 - accuracy: 0.3455
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0993 - accuracy: 0.3636
+Epoch 11/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0901 - accuracy: 0.3636
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0919 - accuracy: 0.5273
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0774 - accuracy: 0.3273
+Epoch 14/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0650 - accuracy: 0.4545
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0326 - accuracy: 0.3636
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0165 - accuracy: 0.7818
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9022 - accuracy: 0.7818
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7809 - accuracy: 0.8182
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.5958 - accuracy: 0.8909
+Epoch 20/50
+2/2 [==============================] - 5s 2s/step - loss: 0.5380 - accuracy: 0.7818
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3963 - accuracy: 0.8545
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2126 - accuracy: 0.9818
+Epoch 23/50
+2/2 [==============================] - 5s 2s/step - loss: 0.1206 - accuracy: 0.9455
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0483 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0654 - accuracy: 0.9636
+Epoch 26/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0219 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0357 - accuracy: 0.9818
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0200 - accuracy: 0.9818
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0110 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0142 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0103 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0062 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0041 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0013 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 5.8382e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7929e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2588e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 9.1260e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 7.9349e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1876e-04 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1678e-04 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 6.6057e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 4.2338e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6047e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 2.0001e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7008e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5077e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3654e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2570e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2035e-05 - accuracy: 1.0000
+Score for fold 3: loss of 1.5265065431594849; accuracy of 88.88888955116272%
+88.88888955116272
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1934_acc_88.88888955116272.h5
+
+
+Overall accuracy: 90.29982487360637
+Overall loss: 0.7662772263089815
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.3810 - accuracy: 0.3519
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 2.0037 - accuracy: 0.3704
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0849 - accuracy: 0.3889
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2187 - accuracy: 0.2593
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0860 - accuracy: 0.3519
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0929 - accuracy: 0.3519
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0664 - accuracy: 0.4630
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0365 - accuracy: 0.6481
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9772 - accuracy: 0.6296
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8298 - accuracy: 0.8889
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6101 - accuracy: 0.9074
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3754 - accuracy: 1.0000
+Epoch 13/50
+2/2 [==============================] - 3s 2s/step - loss: 0.2993 - accuracy: 0.9444
+Epoch 14/50
+2/2 [==============================] - 3s 2s/step - loss: 0.2231 - accuracy: 0.9074
+Epoch 15/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0640 - accuracy: 0.9815
+Epoch 16/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0365 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0391 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0193 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0071 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 6s 3s/step - loss: 0.0035 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0021 - accuracy: 1.0000 
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 9.7171e-04 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 3s 2s/step - loss: 2.8338e-04 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 3s 2s/step - loss: 2.1763e-04 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4368e-04 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 5.9782e-05 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 2.5679e-05 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 1.9105e-05 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 3s 2s/step - loss: 1.9365e-05 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6301e-05 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 2.5672e-05 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 1.9171e-05 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 3s 2s/step - loss: 1.3289e-05 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 8.4254e-06 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 3s 2s/step - loss: 5.4965e-06 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 3s 2s/step - loss: 4.2229e-06 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 3s 2s/step - loss: 3.1965e-06 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6049e-06 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 3s 2s/step - loss: 2.5431e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 3s 2s/step - loss: 2.6424e-06 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 3s 2s/step - loss: 3.0861e-06 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 3s 2s/step - loss: 3.1523e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 3s 2s/step - loss: 3.0507e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 3s 2s/step - loss: 2.9249e-06 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 3s 2s/step - loss: 2.5519e-06 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4261e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 3s 2s/step - loss: 2.2164e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 3s 2s/step - loss: 2.0883e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 3s 2s/step - loss: 1.9934e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 3s 2s/step - loss: 1.9029e-06 - accuracy: 1.0000
+Score for fold 1: loss of 1.1203241348266602; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1942_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 5.7277 - accuracy: 0.2545
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4841 - accuracy: 0.3636
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2000 - accuracy: 0.2545
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1746 - accuracy: 0.2364
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0980 - accuracy: 0.3273
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0915 - accuracy: 0.5091
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0984 - accuracy: 0.3455
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0884 - accuracy: 0.3455
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0726 - accuracy: 0.5273
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0639 - accuracy: 0.5273
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0201 - accuracy: 0.4545
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0182 - accuracy: 0.5636
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9506 - accuracy: 0.4182
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8835 - accuracy: 0.6909
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7896 - accuracy: 0.6545
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6392 - accuracy: 0.7818
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4506 - accuracy: 0.9455
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3133 - accuracy: 0.9273
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2090 - accuracy: 0.9636
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1623 - accuracy: 0.9273
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0828 - accuracy: 0.9818
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0651 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0272 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0234 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0195 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0091 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0044 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0037 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0017 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0011 - accuracy: 1.0000 
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 5.8654e-04 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 3s 2s/step - loss: 1.8281e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 3s 2s/step - loss: 1.6277e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 5s 2s/step - loss: 2.5997e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 6s 3s/step - loss: 1.7952e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 7s 3s/step - loss: 4.9933e-05 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 6s 3s/step - loss: 3.0563e-05 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 6s 3s/step - loss: 3.7830e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 5s 3s/step - loss: 5.2786e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 7s 3s/step - loss: 3.7581e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 6s 3s/step - loss: 1.9554e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 7s 3s/step - loss: 1.2557e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 7s 3s/step - loss: 1.4433e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 7s 3s/step - loss: 1.6275e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 6s 3s/step - loss: 1.4238e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 7s 3s/step - loss: 8.5154e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 5s 3s/step - loss: 7.6767e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 6s 3s/step - loss: 7.7654e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 6s 3s/step - loss: 8.7968e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 7.2062e-06 - accuracy: 1.0000
+Score for fold 2: loss of 0.04777378588914871; accuracy of 96.29629850387573%
+96.29629850387573
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_1951_acc_96.29629850387573.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 5.4096 - accuracy: 0.2182
+Epoch 2/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1358 - accuracy: 0.3636
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1040 - accuracy: 0.3455
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1028 - accuracy: 0.3273
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1076 - accuracy: 0.3636
+Epoch 6/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0892 - accuracy: 0.3818
+Epoch 7/50
+2/2 [==============================] - 5s 2s/step - loss: 1.0965 - accuracy: 0.4000
+Epoch 8/50
+2/2 [==============================] - 6s 3s/step - loss: 1.0689 - accuracy: 0.4000
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0670 - accuracy: 0.3636
+Epoch 10/50
+2/2 [==============================] - 7s 4s/step - loss: 0.9953 - accuracy: 0.6545
+Epoch 11/50
+2/2 [==============================] - 7s 4s/step - loss: 0.9309 - accuracy: 0.8000
+Epoch 12/50
+2/2 [==============================] - 7s 4s/step - loss: 0.8410 - accuracy: 0.6909
+Epoch 13/50
+2/2 [==============================] - 7s 4s/step - loss: 0.6096 - accuracy: 0.9455
+Epoch 14/50
+2/2 [==============================] - 7s 4s/step - loss: 0.5073 - accuracy: 0.6727
+Epoch 15/50
+2/2 [==============================] - 8s 4s/step - loss: 0.2561 - accuracy: 0.9636
+Epoch 16/50
+2/2 [==============================] - 7s 4s/step - loss: 0.2319 - accuracy: 0.9273
+Epoch 17/50
+2/2 [==============================] - 7s 4s/step - loss: 0.1215 - accuracy: 0.9818
+Epoch 18/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0710 - accuracy: 0.9818
+Epoch 19/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0948 - accuracy: 0.9636
+Epoch 20/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0278 - accuracy: 0.9818
+Epoch 21/50
+2/2 [==============================] - 7s 4s/step - loss: 0.1082 - accuracy: 0.9636
+Epoch 22/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0341 - accuracy: 0.9818
+Epoch 23/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0334 - accuracy: 0.9818
+Epoch 24/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0271 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0302 - accuracy: 0.9818
+Epoch 26/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0201 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0297 - accuracy: 0.9818
+Epoch 28/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0096 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0084 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0149 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0028 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0073 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0062 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0018 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 8s 4s/step - loss: 6.1222e-04 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 7s 4s/step - loss: 6.9005e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 7s 4s/step - loss: 9.4519e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 7s 4s/step - loss: 7.2119e-04 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 8s 4s/step - loss: 4.3246e-04 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 7s 4s/step - loss: 2.2356e-04 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 7s 4s/step - loss: 2.1447e-04 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 7s 4s/step - loss: 2.0548e-04 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 7s 4s/step - loss: 1.5031e-04 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 7s 4s/step - loss: 1.1533e-04 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 7s 4s/step - loss: 9.0839e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 7s 4s/step - loss: 7.2790e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 7s 4s/step - loss: 6.8806e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 7s 3s/step - loss: 6.4354e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 6.0249e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 5.6147e-05 - accuracy: 1.0000
+Score for fold 3: loss of 1.9230629205703735; accuracy of 85.18518805503845%
+85.18518805503845
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2004_acc_85.18518805503845.h5
+
+
+Overall accuracy: 90.27777910232544
+Overall loss: 0.8983320867021879
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.5466 - accuracy: 0.2778
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1680 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3180 - accuracy: 0.2407
+Epoch 4/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1106 - accuracy: 0.3519
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1115 - accuracy: 0.3519
+Epoch 6/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0932 - accuracy: 0.2963
+Epoch 7/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0749 - accuracy: 0.4630
+Epoch 8/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0625 - accuracy: 0.4815
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0261 - accuracy: 0.3704
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 0.9720 - accuracy: 0.6481
+Epoch 11/50
+2/2 [==============================] - 3s 2s/step - loss: 0.8641 - accuracy: 0.7407
+Epoch 12/50
+2/2 [==============================] - 3s 2s/step - loss: 0.7311 - accuracy: 0.8704
+Epoch 13/50
+2/2 [==============================] - 3s 2s/step - loss: 0.7348 - accuracy: 0.5741
+Epoch 14/50
+2/2 [==============================] - 3s 2s/step - loss: 0.5712 - accuracy: 0.8148
+Epoch 15/50
+2/2 [==============================] - 3s 2s/step - loss: 0.2781 - accuracy: 0.9815
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1211 - accuracy: 0.9630
+Epoch 17/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0566 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0565 - accuracy: 0.9630
+Epoch 19/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0235 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0162 - accuracy: 0.9815
+Epoch 21/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0588 - accuracy: 0.9815
+Epoch 22/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0063 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0704 - accuracy: 0.9815
+Epoch 24/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0090 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0011 - accuracy: 1.0000 
+Epoch 26/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0288 - accuracy: 0.9815
+Epoch 27/50
+2/2 [==============================] - 3s 2s/step - loss: 2.3330e-04 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0077 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0136 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0102 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0096 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0120 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0047 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0039 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0016 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0287e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 3s 2s/step - loss: 2.3576e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 3s 2s/step - loss: 9.8392e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 3s 2s/step - loss: 4.8309e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 3s 2s/step - loss: 2.1453e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3020e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 8.1898e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 5.7175e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 4.2429e-06 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 3s 2s/step - loss: 3.4990e-06 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 3s 2s/step - loss: 3.0067e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 3s 2s/step - loss: 2.5850e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2098e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 2.0486e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 1.8499e-06 - accuracy: 1.0000
+Score for fold 1: loss of 0.4604606330394745; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2011_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 4.5082 - accuracy: 0.3273
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 4.2071 - accuracy: 0.3455
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1788 - accuracy: 0.2545
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1267 - accuracy: 0.3455
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1137 - accuracy: 0.3455
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0881 - accuracy: 0.4000
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0999 - accuracy: 0.3455
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0962 - accuracy: 0.3091
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0769 - accuracy: 0.3455
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1129 - accuracy: 0.2364
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0491 - accuracy: 0.5818
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0165 - accuracy: 0.5818
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9685 - accuracy: 0.6364
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8927 - accuracy: 0.8909
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7891 - accuracy: 0.8000
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6073 - accuracy: 0.9273
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4851 - accuracy: 0.8545
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4804 - accuracy: 0.7636
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3174 - accuracy: 0.9091
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2895 - accuracy: 0.9455
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1815 - accuracy: 0.9818
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1128 - accuracy: 0.9636
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0667 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0743 - accuracy: 0.9636
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0187 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0160 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0095 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0055 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0024 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0018 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 5.8606e-04 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 2.8957e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3219e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 7.6268e-05 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 5.6408e-05 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 4.1928e-05 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 3s 2s/step - loss: 3.5089e-05 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6883e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 1.9248e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2651e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0258e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 8.2641e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 6.7817e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 5.8585e-06 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 5.4662e-06 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 5.3773e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 4.7791e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 4.0834e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 3.6434e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2793e-06 - accuracy: 1.0000
+Score for fold 2: loss of 0.1906764805316925; accuracy of 92.59259104728699%
+92.59259104728699
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2019_acc_92.59259104728699.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 1.8993 - accuracy: 0.2727
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2331 - accuracy: 0.3091
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2326 - accuracy: 0.3273
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0691 - accuracy: 0.6545
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0350 - accuracy: 0.4000
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0079 - accuracy: 0.5636
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8716 - accuracy: 0.5455
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7311 - accuracy: 0.7455
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6083 - accuracy: 0.7818
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4046 - accuracy: 0.8364
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2510 - accuracy: 0.9636
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1186 - accuracy: 0.9636
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0565 - accuracy: 0.9636
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1802 - accuracy: 0.9091
+Epoch 15/50
+2/2 [==============================] - 5s 2s/step - loss: 0.1109 - accuracy: 0.9636
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1072 - accuracy: 0.9818
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0202 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0920 - accuracy: 0.9455
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0676 - accuracy: 0.9818
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0051 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0514 - accuracy: 0.9818
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0266 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0081 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0083 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0054 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 7.8948e-04 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 7.1393e-04 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0017 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 3s 2s/step - loss: 2.7587e-04 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 3.6893e-04 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4006e-04 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 3s 2s/step - loss: 1.4723e-04 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1187e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 5.4173e-05 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 4.4245e-05 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 5.0745e-05 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 3.8721e-05 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4709e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4374e-05 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1883e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2495e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3602e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4923e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 1.3562e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0838e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 7.4405e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 6.3872e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 5.3881e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 4.6838e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 3s 2s/step - loss: 4.3478e-06 - accuracy: 1.0000
+Score for fold 3: loss of 3.2284231185913086; accuracy of 70.37037014961243%
+70.37037014961243
+
+
+Overall accuracy: 88.2128165827857
+Overall loss: 1.0299503058195114
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 3s 2s/step - loss: 3.3983 - accuracy: 0.2963
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.6370 - accuracy: 0.3519
+Epoch 3/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1492 - accuracy: 0.3519
+Epoch 4/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1375 - accuracy: 0.3519
+Epoch 5/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0776 - accuracy: 0.3519
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0188 - accuracy: 0.5185
+Epoch 7/50
+2/2 [==============================] - 3s 2s/step - loss: 0.9354 - accuracy: 0.5556
+Epoch 8/50
+2/2 [==============================] - 3s 2s/step - loss: 0.9503 - accuracy: 0.4630
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6176 - accuracy: 0.9074
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 0.4339 - accuracy: 0.8704
+Epoch 11/50
+2/2 [==============================] - 3s 2s/step - loss: 0.2793 - accuracy: 0.9630
+Epoch 12/50
+2/2 [==============================] - 3s 2s/step - loss: 0.1163 - accuracy: 0.9815
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0509 - accuracy: 1.0000
+Epoch 14/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0155 - accuracy: 1.0000
+Epoch 15/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0159 - accuracy: 0.9815
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0080 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0021 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0014 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 3s 2s/step - loss: 9.9624e-04 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1673e-04 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 6.6949e-05 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 3s 2s/step - loss: 6.2549e-05 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 3s 2s/step - loss: 5.3151e-05 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 3s 2s/step - loss: 3.6795e-05 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 3s 2s/step - loss: 1.3530e-05 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 3s 2s/step - loss: 8.6618e-06 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 9.8030e-06 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 3s 2s/step - loss: 1.4051e-05 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0716e-05 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 6.8232e-06 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 3.5762e-06 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 3s 2s/step - loss: 2.6380e-06 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 3s 2s/step - loss: 2.7439e-06 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 3s 2s/step - loss: 2.7086e-06 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 3s 2s/step - loss: 2.5982e-06 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 3s 2s/step - loss: 2.5055e-06 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 3s 2s/step - loss: 2.2737e-06 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 2.0530e-06 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 3s 2s/step - loss: 1.9271e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 3s 2s/step - loss: 1.6799e-06 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 3s 2s/step - loss: 1.4835e-06 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 3s 2s/step - loss: 1.2737e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 3s 2s/step - loss: 1.2186e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1413e-06 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0685e-06 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0044e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 3s 2s/step - loss: 9.7353e-07 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 3s 2s/step - loss: 9.6691e-07 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 6s 3s/step - loss: 9.3159e-07 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 9s 4s/step - loss: 9.2276e-07 - accuracy: 1.0000
+Score for fold 1: loss of 3.533496856689453; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2034_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 5s 2s/step - loss: 6.8828 - accuracy: 0.3455
+Epoch 2/50
+2/2 [==============================] - 5s 3s/step - loss: 1.7462 - accuracy: 0.3091
+Epoch 3/50
+2/2 [==============================] - 5s 3s/step - loss: 1.1065 - accuracy: 0.3636
+Epoch 4/50
+2/2 [==============================] - 5s 3s/step - loss: 1.1011 - accuracy: 0.3818
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0978 - accuracy: 0.3091
+Epoch 6/50
+2/2 [==============================] - 5s 2s/step - loss: 1.1037 - accuracy: 0.4182
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0811 - accuracy: 0.3455
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0476 - accuracy: 0.3818
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0286 - accuracy: 0.5091
+Epoch 10/50
+2/2 [==============================] - 5s 2s/step - loss: 0.9080 - accuracy: 0.6364
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 0.7805 - accuracy: 0.6000
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6192 - accuracy: 0.7273
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4291 - accuracy: 0.8182
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2627 - accuracy: 0.9091
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.2292 - accuracy: 0.9273
+Epoch 16/50
+2/2 [==============================] - 5s 2s/step - loss: 0.1017 - accuracy: 0.9636
+Epoch 17/50
+2/2 [==============================] - 5s 2s/step - loss: 0.0754 - accuracy: 0.9818
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0595 - accuracy: 0.9818
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0579 - accuracy: 0.9636
+Epoch 20/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0433 - accuracy: 0.9818
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0902 - accuracy: 0.9636
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0050 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0064 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0867 - accuracy: 0.9636
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0094 - accuracy: 1.0000 
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1759 - accuracy: 0.9273
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0090 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0135 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0400 - accuracy: 0.9818
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0297 - accuracy: 0.9818
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0067 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0033 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 8.2864e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 6.5806e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0011 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 4.3923e-04 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7543e-04 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 1.6725e-05 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 8.1470e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5624e-04 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 3.8514e-06 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 3.0430e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 7.5379e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 1.8063e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 2.7775e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 3.3630e-05 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2015e-05 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 6s 3s/step - loss: 2.8289e-05 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 5s 3s/step - loss: 1.8228e-05 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 1.4321e-05 - accuracy: 1.0000
+Score for fold 2: loss of 0.3643307089805603; accuracy of 92.59259104728699%
+92.59259104728699
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2042_acc_92.59259104728699.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.5075 - accuracy: 0.4000
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4712 - accuracy: 0.3273
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1443 - accuracy: 0.3636
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1351 - accuracy: 0.3273
+Epoch 5/50
+2/2 [==============================] - 7s 3s/step - loss: 1.1604 - accuracy: 0.3636
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0930 - accuracy: 0.3636
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0918 - accuracy: 0.4364
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0898 - accuracy: 0.3091
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0780 - accuracy: 0.3636
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0757 - accuracy: 0.3636
+Epoch 11/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0371 - accuracy: 0.5636
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9819 - accuracy: 0.8727
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9003 - accuracy: 0.8364
+Epoch 14/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8720 - accuracy: 0.5818
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6335 - accuracy: 0.8364
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.5244 - accuracy: 0.8909
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3263 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1789 - accuracy: 0.9455
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0787 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1787 - accuracy: 0.9273
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3452 - accuracy: 0.8727
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0962 - accuracy: 0.9818
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 0.3050 - accuracy: 0.8364
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1682 - accuracy: 0.9636
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1644 - accuracy: 0.9636
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1267 - accuracy: 0.9636
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0469 - accuracy: 0.9818
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0413 - accuracy: 0.9818
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0273 - accuracy: 0.9818
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0324 - accuracy: 0.9818
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0061 - accuracy: 1.0000 
+Epoch 32/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0117 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0104 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0178 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0045 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0097 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0086 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0052 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0043 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0041 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0023 - accuracy: 1.0000 
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0014 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 9.6655e-04 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 8.5642e-04 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 8.0054e-04 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 7.3137e-04 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 5.3933e-04 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 4.4952e-04 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 3.2770e-04 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4864e-04 - accuracy: 1.0000
+Score for fold 3: loss of 0.8791533708572388; accuracy of 88.88888955116272%
+88.88888955116272
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2050_acc_88.88888955116272.h5
+
+
+Overall accuracy: 88.72354527314504
+Overall loss: 1.170544474075238
+
+
+(eda) shk3@shk3-VirtualBox:~/git.bak/substructuresnmr/scripts$ python3 combined.py 
+Found 82 images belonging to 3 classes.
+Found 82 images belonging to 3 classes.
+out
+3
+-----------------------------------
+NUM_FOLD SET TO: 3
+-----------------------------------
+2020-12-20 21:02:29.773913: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-20 21:02:29.971561: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2495995000 Hz
+2020-12-20 21:02:29.974760: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55772e0f1d50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-20 21:02:29.974943: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-20 21:02:30.037668: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+model compiled
+------------------------------------------------------------------------
+Training for fold 1 ...
+Epoch 1/50
+2/2 [==============================] - 3s 2s/step - loss: 3.1100 - accuracy: 0.2222
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1865 - accuracy: 0.2407
+Epoch 3/50
+2/2 [==============================] - 3s 2s/step - loss: 1.1606 - accuracy: 0.2407
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1142 - accuracy: 0.3519
+Epoch 5/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0858 - accuracy: 0.3704
+Epoch 6/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0857 - accuracy: 0.3519
+Epoch 7/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0751 - accuracy: 0.4259
+Epoch 8/50
+2/2 [==============================] - 3s 2s/step - loss: 1.0463 - accuracy: 0.5000
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9785 - accuracy: 0.6481
+Epoch 10/50
+2/2 [==============================] - 3s 2s/step - loss: 0.8664 - accuracy: 0.9630
+Epoch 11/50
+2/2 [==============================] - 3s 2s/step - loss: 0.6635 - accuracy: 0.9259
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.4210 - accuracy: 0.9815
+Epoch 13/50
+2/2 [==============================] - 6s 3s/step - loss: 0.2068 - accuracy: 0.9630
+Epoch 14/50
+2/2 [==============================] - 7s 3s/step - loss: 0.1075 - accuracy: 0.9815
+Epoch 15/50
+2/2 [==============================] - 6s 3s/step - loss: 0.0510 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 7s 3s/step - loss: 0.0135 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 6s 3s/step - loss: 0.0083 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 7s 3s/step - loss: 0.0039 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 7s 3s/step - loss: 0.0227 - accuracy: 0.9815
+Epoch 20/50
+2/2 [==============================] - 7s 3s/step - loss: 0.0863 - accuracy: 0.9815
+Epoch 21/50
+2/2 [==============================] - 7s 3s/step - loss: 0.0769 - accuracy: 0.9630
+Epoch 22/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0029 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 6s 3s/step - loss: 0.0826 - accuracy: 0.9630
+Epoch 24/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0080 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0470 - accuracy: 0.9815
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0293 - accuracy: 0.9815
+Epoch 27/50
+2/2 [==============================] - 5s 3s/step - loss: 0.0060 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0058 - accuracy: 1.0000 
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0018 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 6.6489e-05 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 1.7235e-04 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0015 - accuracy: 1.0000 
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 6.0220e-04 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 5s 2s/step - loss: 1.6833e-04 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 7s 4s/step - loss: 2.8050e-05 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 8s 4s/step - loss: 7.6153e-06 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 7s 3s/step - loss: 3.0773e-06 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 7s 3s/step - loss: 3.3113e-06 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 7s 3s/step - loss: 5.1566e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 7s 4s/step - loss: 1.5458e-05 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 7s 3s/step - loss: 2.3465e-05 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 7s 3s/step - loss: 3.3094e-05 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 8s 4s/step - loss: 2.9559e-05 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 7s 3s/step - loss: 2.1653e-05 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 7s 3s/step - loss: 1.2172e-05 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 7s 4s/step - loss: 6.0306e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 7s 4s/step - loss: 3.0839e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 7s 3s/step - loss: 2.2737e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 7s 3s/step - loss: 9.8678e-07 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 6s 3s/step - loss: 8.1018e-07 - accuracy: 1.0000
+Score for fold 1: loss of 1.0957354307174683; accuracy of 89.28571343421936%
+89.28571343421936
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2114_acc_89.28571343421936.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 2 ...
+Epoch 1/50
+2/2 [==============================] - 7s 4s/step - loss: 3.6913 - accuracy: 0.2182
+Epoch 2/50
+2/2 [==============================] - 7s 3s/step - loss: 1.5807 - accuracy: 0.3455
+Epoch 3/50
+2/2 [==============================] - 8s 4s/step - loss: 1.1132 - accuracy: 0.3091
+Epoch 4/50
+2/2 [==============================] - 7s 3s/step - loss: 1.1841 - accuracy: 0.3455
+Epoch 5/50
+2/2 [==============================] - 7s 4s/step - loss: 1.0782 - accuracy: 0.3091
+Epoch 6/50
+2/2 [==============================] - 8s 4s/step - loss: 1.1072 - accuracy: 0.3091
+Epoch 7/50
+2/2 [==============================] - 8s 4s/step - loss: 1.0016 - accuracy: 0.5455
+Epoch 8/50
+2/2 [==============================] - 7s 4s/step - loss: 0.9293 - accuracy: 0.8545
+Epoch 9/50
+2/2 [==============================] - 7s 4s/step - loss: 0.7605 - accuracy: 0.6727
+Epoch 10/50
+2/2 [==============================] - 7s 4s/step - loss: 0.5496 - accuracy: 0.7091
+Epoch 11/50
+2/2 [==============================] - 7s 4s/step - loss: 0.3521 - accuracy: 0.9091
+Epoch 12/50
+2/2 [==============================] - 8s 4s/step - loss: 0.2003 - accuracy: 0.9455
+Epoch 13/50
+2/2 [==============================] - 7s 4s/step - loss: 0.1125 - accuracy: 0.9818
+Epoch 14/50
+2/2 [==============================] - 8s 4s/step - loss: 0.0563 - accuracy: 0.9818
+Epoch 15/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0243 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0148 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0062 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0025 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 7s 4s/step - loss: 0.0015 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 7s 4s/step - loss: 4.8843e-04 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 7s 4s/step - loss: 2.4765e-04 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 7s 4s/step - loss: 1.3291e-04 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 7s 4s/step - loss: 9.4138e-05 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 4s 2s/step - loss: 6.8900e-05 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 4.6240e-05 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 4s 2s/step - loss: 3.0290e-05 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 3s 2s/step - loss: 2.2645e-05 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 1.6078e-05 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 1.2075e-05 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 3s 2s/step - loss: 8.5842e-06 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 4s 2s/step - loss: 6.2678e-06 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 5.5267e-06 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 4.1267e-06 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 3.7474e-06 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 3.5112e-06 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 3.1947e-06 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 4s 2s/step - loss: 2.9953e-06 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 2.8653e-06 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 2.7418e-06 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 2.6161e-06 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 2.5034e-06 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 2.4383e-06 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 4s 2s/step - loss: 2.3625e-06 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 3s 2s/step - loss: 2.3170e-06 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 3s 2s/step - loss: 2.2736e-06 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2433e-06 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 2.2043e-06 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1717e-06 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1522e-06 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1306e-06 - accuracy: 1.0000
+Score for fold 2: loss of 0.029636766761541367; accuracy of 100.0%
+100.0
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2124_acc_100.0.h5
+model compiled
+------------------------------------------------------------------------
+Training for fold 3 ...
+Epoch 1/50
+2/2 [==============================] - 4s 2s/step - loss: 3.4927 - accuracy: 0.2727
+Epoch 2/50
+2/2 [==============================] - 4s 2s/step - loss: 1.5482 - accuracy: 0.3636
+Epoch 3/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1226 - accuracy: 0.3091
+Epoch 4/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1929 - accuracy: 0.3273
+Epoch 5/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1027 - accuracy: 0.4182
+Epoch 6/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0841 - accuracy: 0.3636
+Epoch 7/50
+2/2 [==============================] - 4s 2s/step - loss: 1.0522 - accuracy: 0.6545
+Epoch 8/50
+2/2 [==============================] - 4s 2s/step - loss: 0.9972 - accuracy: 0.7455
+Epoch 9/50
+2/2 [==============================] - 4s 2s/step - loss: 0.8543 - accuracy: 0.8727
+Epoch 10/50
+2/2 [==============================] - 4s 2s/step - loss: 0.6283 - accuracy: 0.8909
+Epoch 11/50
+2/2 [==============================] - 3s 2s/step - loss: 0.3841 - accuracy: 0.8909
+Epoch 12/50
+2/2 [==============================] - 4s 2s/step - loss: 0.1517 - accuracy: 0.9455
+Epoch 13/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0771 - accuracy: 0.9636
+Epoch 14/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0354 - accuracy: 0.9818
+Epoch 15/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0130 - accuracy: 1.0000
+Epoch 16/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0062 - accuracy: 1.0000
+Epoch 17/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0067 - accuracy: 1.0000
+Epoch 18/50
+2/2 [==============================] - 3s 2s/step - loss: 2.9239e-05 - accuracy: 1.0000
+Epoch 19/50
+2/2 [==============================] - 4s 2s/step - loss: 1.1871e-04 - accuracy: 1.0000
+Epoch 20/50
+2/2 [==============================] - 4s 2s/step - loss: 4.7461e-04 - accuracy: 1.0000
+Epoch 21/50
+2/2 [==============================] - 4s 2s/step - loss: 7.6894e-04 - accuracy: 1.0000
+Epoch 22/50
+2/2 [==============================] - 4s 2s/step - loss: 4.5816e-06 - accuracy: 1.0000
+Epoch 23/50
+2/2 [==============================] - 4s 2s/step - loss: 2.3017e-06 - accuracy: 1.0000
+Epoch 24/50
+2/2 [==============================] - 3s 2s/step - loss: 2.6876e-07 - accuracy: 1.0000
+Epoch 25/50
+2/2 [==============================] - 4s 2s/step - loss: 7.5860e-08 - accuracy: 1.0000
+Epoch 26/50
+2/2 [==============================] - 3s 2s/step - loss: 1.9507e-08 - accuracy: 1.0000
+Epoch 27/50
+2/2 [==============================] - 4s 2s/step - loss: 6.5023e-09 - accuracy: 1.0000
+Epoch 28/50
+2/2 [==============================] - 4s 2s/step - loss: 4.3349e-09 - accuracy: 1.0000
+Epoch 29/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 30/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 31/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 32/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 33/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 34/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 35/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 36/50
+2/2 [==============================] - 4s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 37/50
+2/2 [==============================] - 3s 2s/step - loss: 0.0000e+00 - accuracy: 1.0000
+Epoch 38/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 39/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 40/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 41/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 42/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 43/50
+2/2 [==============================] - 5s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 44/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 45/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 46/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 47/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 48/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 49/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Epoch 50/50
+2/2 [==============================] - 4s 2s/step - loss: 2.1674e-09 - accuracy: 1.0000
+Score for fold 3: loss of 4.509369850158691; accuracy of 85.18518805503845%
+85.18518805503845
+
+ The model is successfully saved in models folder with the name: Sun20Dec2020_at_2132_acc_85.18518805503845.h5
+
+
+Overall accuracy: 91.49030049641927
+Overall loss: 1.878247349212567
+s
