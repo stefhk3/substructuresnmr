@@ -25,11 +25,13 @@ train_datagen=ImageDataGenerator(rescale=1./255)
 train_set=train_datagen.flow_from_directory('../data/hmbc/train',target_size=(300,205),batch_size=8,color_mode='grayscale',class_mode='categorical')
 #build network
 network=models.Sequential()
-network.add(layers.Conv2D(32, (3,3), activation='relu', input_shape=(300, 205, 1)))
+network.add(layers.Conv2D(32, 3, activation='relu', input_shape=(300, 205, 1)))
 network.add(layers.MaxPooling2D((2,2)))
-network.add(layers.Conv2D(64, (3,3), activation='relu'))
+network.add(layers.Conv2D(64, 3, activation='relu'))
 network.add(layers.MaxPooling2D((2,2)))
-network.add(layers.Conv2D(64, (3,3), activation='relu'))
+network.add(layers.Conv2D(64, 3, activation='relu'))
+network.add(layers.MaxPooling2D((2,2)))
+network.add(layers.Conv2D(128, 3, activation='relu'))
 network.add(layers.Flatten())
 network.add(layers.Dense(64, activation='relu'))
 network.add(layers.Dense(3, activation='softmax'))
@@ -40,7 +42,27 @@ network.fit(train_set, epochs=50)
 #test using test data
 np.set_printoptions(precision=2)
 np.set_printoptions(suppress=True)
-img_path = '../data/hmbc/test/fattyacids/bmse000509_1H_13C_HMBC.jpg'
+img_path = '../data/hmbc/test/fattyacids/bmse000643_1H_13C_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/fattyacids/643_60_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/fattyacids/643_60_61_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/fattyacids/643_60_61_72_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/fattyacids/643_60_61_72_499_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/fattyacids/643_60_61_72_499_544_HMBC.jpg'
 new_image = load_image(img_path, False)
 pred = network.predict(new_image)
 print(pred)
@@ -48,7 +70,47 @@ img_path = '../data/hmbc/test/indol/bmse000364_1H_13C_HMBC.jpg'
 new_image = load_image(img_path, False)
 pred = network.predict(new_image)
 print(pred)
+img_path = '../data/hmbc/test/indol/364_60_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/indol/364_60_61_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/indol/364_60_61_72_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/indol/364_60_61_72_499_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/indol/364_60_61_72_499_544_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
 img_path = '../data/hmbc/test/steroids/bmse000489_1H_13C_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/steroids/489_60_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/steroids/489_60_61_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/steroids/489_60_61_72_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/steroids/489_60_61_72_499_HMBC.jpg'
+new_image = load_image(img_path, False)
+pred = network.predict(new_image)
+print(pred)
+img_path = '../data/hmbc/test/steroids/489_60_61_72_499_544_HMBC.jpg'
 new_image = load_image(img_path, False)
 pred = network.predict(new_image)
 print(pred)

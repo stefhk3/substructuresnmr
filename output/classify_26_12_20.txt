@@ -1,0 +1,392 @@
+(tf2) shk3@shk3-VirtualBox:~/git.bak/substructuresnmr/scripts$ python3 classify_hmbc.py 
+Using TensorFlow backend.
+Found 79 images belonging to 3 classes.
+2020-12-26 18:13:00.865592: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-26 18:13:00.870774: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2495995000 Hz
+2020-12-26 18:13:00.870951: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5574be066de0 executing computations on platform Host. Devices:
+2020-12-26 18:13:00.871009: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2020-12-26 18:13:00.871233: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Epoch 1/50
+11/11 [==============================] - 7s 678ms/step - loss: 1.5996 - accuracy: 0.4024
+Epoch 2/50
+11/11 [==============================] - 5s 488ms/step - loss: 1.1131 - accuracy: 0.3171
+Epoch 3/50
+11/11 [==============================] - 6s 525ms/step - loss: 1.0952 - accuracy: 0.4024
+Epoch 4/50
+11/11 [==============================] - 6s 509ms/step - loss: 1.0412 - accuracy: 0.5732
+Epoch 5/50
+11/11 [==============================] - 6s 512ms/step - loss: 0.5259 - accuracy: 0.8171
+Epoch 6/50
+11/11 [==============================] - 5s 497ms/step - loss: 0.1064 - accuracy: 0.9878
+Epoch 7/50
+11/11 [==============================] - 5s 494ms/step - loss: 0.3343 - accuracy: 0.9024
+Epoch 8/50
+11/11 [==============================] - 5s 497ms/step - loss: 0.6556 - accuracy: 0.7439
+Epoch 9/50
+11/11 [==============================] - 6s 500ms/step - loss: 0.2331 - accuracy: 0.9268
+Epoch 10/50
+11/11 [==============================] - 5s 494ms/step - loss: 0.2156 - accuracy: 0.9390
+Epoch 11/50
+11/11 [==============================] - 5s 472ms/step - loss: 0.3462 - accuracy: 0.9024
+Epoch 12/50
+11/11 [==============================] - 6s 521ms/step - loss: 0.3177 - accuracy: 0.8537
+Epoch 13/50
+11/11 [==============================] - 6s 501ms/step - loss: 0.0743 - accuracy: 0.9756
+Epoch 14/50
+11/11 [==============================] - 6s 501ms/step - loss: 0.4159 - accuracy: 0.9146
+Epoch 15/50
+11/11 [==============================] - 6s 513ms/step - loss: 0.2982 - accuracy: 0.9146
+Epoch 16/50
+11/11 [==============================] - 5s 482ms/step - loss: 0.2037 - accuracy: 0.9146
+Epoch 17/50
+11/11 [==============================] - 6s 518ms/step - loss: 0.0596 - accuracy: 0.9756
+Epoch 18/50
+11/11 [==============================] - 5s 493ms/step - loss: 0.0229 - accuracy: 0.9878
+Epoch 19/50
+11/11 [==============================] - 5s 493ms/step - loss: 0.0083 - accuracy: 1.0000
+Epoch 20/50
+11/11 [==============================] - 5s 489ms/step - loss: 0.0282 - accuracy: 0.9756
+Epoch 21/50
+11/11 [==============================] - 5s 492ms/step - loss: 0.0024 - accuracy: 1.0000
+Epoch 22/50
+11/11 [==============================] - 5s 491ms/step - loss: 0.0011 - accuracy: 1.0000
+Epoch 23/50
+11/11 [==============================] - 5s 494ms/step - loss: 7.9007e-04 - accuracy: 1.0000
+Epoch 24/50
+11/11 [==============================] - 5s 476ms/step - loss: 5.4335e-04 - accuracy: 1.0000
+Epoch 25/50
+11/11 [==============================] - 6s 511ms/step - loss: 3.6813e-04 - accuracy: 1.0000
+Epoch 26/50
+11/11 [==============================] - 6s 511ms/step - loss: 2.5468e-04 - accuracy: 1.0000
+Epoch 27/50
+11/11 [==============================] - 6s 503ms/step - loss: 2.3727e-04 - accuracy: 1.0000
+Epoch 28/50
+11/11 [==============================] - 6s 514ms/step - loss: 1.5701e-04 - accuracy: 1.0000
+Epoch 29/50
+11/11 [==============================] - 5s 500ms/step - loss: 1.1924e-04 - accuracy: 1.0000
+Epoch 30/50
+11/11 [==============================] - 5s 496ms/step - loss: 9.5497e-05 - accuracy: 1.0000
+Epoch 31/50
+11/11 [==============================] - 5s 499ms/step - loss: 7.2382e-05 - accuracy: 1.0000
+Epoch 32/50
+11/11 [==============================] - 6s 501ms/step - loss: 5.3377e-05 - accuracy: 1.0000
+Epoch 33/50
+11/11 [==============================] - 6s 506ms/step - loss: 2.7634e-05 - accuracy: 1.0000
+Epoch 34/50
+11/11 [==============================] - 5s 493ms/step - loss: 1.9653e-05 - accuracy: 1.0000
+Epoch 35/50
+11/11 [==============================] - 5s 473ms/step - loss: 1.5595e-05 - accuracy: 1.0000
+Epoch 36/50
+11/11 [==============================] - 6s 510ms/step - loss: 1.2356e-05 - accuracy: 1.0000
+Epoch 37/50
+11/11 [==============================] - 6s 501ms/step - loss: 1.0851e-05 - accuracy: 1.0000
+Epoch 38/50
+11/11 [==============================] - 5s 496ms/step - loss: 1.0132e-05 - accuracy: 1.0000
+Epoch 39/50
+11/11 [==============================] - 5s 491ms/step - loss: 8.3851e-06 - accuracy: 1.0000
+Epoch 40/50
+11/11 [==============================] - 5s 491ms/step - loss: 7.8878e-06 - accuracy: 1.0000
+Epoch 41/50
+11/11 [==============================] - 5s 495ms/step - loss: 7.0020e-06 - accuracy: 1.0000
+Epoch 42/50
+11/11 [==============================] - 6s 568ms/step - loss: 6.1735e-06 - accuracy: 1.0000
+Epoch 43/50
+11/11 [==============================] - 6s 517ms/step - loss: 5.6094e-06 - accuracy: 1.0000
+Epoch 44/50
+11/11 [==============================] - 6s 502ms/step - loss: 5.2060e-06 - accuracy: 1.0000
+Epoch 45/50
+11/11 [==============================] - 5s 499ms/step - loss: 4.6991e-06 - accuracy: 1.0000
+Epoch 46/50
+11/11 [==============================] - 6s 504ms/step - loss: 4.3297e-06 - accuracy: 1.0000
+Epoch 47/50
+11/11 [==============================] - 6s 515ms/step - loss: 3.9291e-06 - accuracy: 1.0000
+Epoch 48/50
+11/11 [==============================] - 6s 547ms/step - loss: 3.6456e-06 - accuracy: 1.0000
+Epoch 49/50
+11/11 [==============================] - 6s 508ms/step - loss: 3.3049e-06 - accuracy: 1.0000
+Epoch 50/50
+11/11 [==============================] - 6s 508ms/step - loss: 3.1042e-06 - accuracy: 1.0000
+F
+[[1. 0. 0.]]
+[[1. 0. 0.]]
+[[1. 0. 0.]]
+[[1. 0. 0.]]
+[[1. 0. 0.]]
+[[0.87 0.   0.13]]
+I
+[[0. 1. 0.]]
+[[0. 1. 0.]]
+[[0. 1. 0.]]
+[[0. 1. 0.]]
+[[0. 1. 0.]]
+[[0.07 0.   0.93]]
+S
+[[0. 0. 1.]]
+[[0. 0. 1.]]
+[[0. 1. 0.]]
+[[0. 1. 0.]]
+[[0. 1. 0.]]
+[[0. 0. 1.]]
+(tf2) shk3@shk3-VirtualBox:~/git.bak/substructuresnmr/scripts$ python3 classify_hsqc.py 
+Using TensorFlow backend.
+Found 79 images belonging to 3 classes.
+2020-12-26 21:08:01.014528: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-26 21:08:01.019691: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2495995000 Hz
+2020-12-26 21:08:01.019865: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ef25649de0 executing computations on platform Host. Devices:
+2020-12-26 21:08:01.019922: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2020-12-26 21:08:01.020084: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Epoch 1/50
+10/10 [==============================] - 7s 712ms/step - loss: 1.2843 - accuracy: 0.3797
+Epoch 2/50
+10/10 [==============================] - 5s 534ms/step - loss: 1.1078 - accuracy: 0.2532
+Epoch 3/50
+10/10 [==============================] - 6s 562ms/step - loss: 1.1030 - accuracy: 0.3671
+Epoch 4/50
+10/10 [==============================] - 7s 661ms/step - loss: 1.0842 - accuracy: 0.4177
+Epoch 5/50
+10/10 [==============================] - 6s 625ms/step - loss: 0.8479 - accuracy: 0.6456
+Epoch 6/50
+10/10 [==============================] - 6s 621ms/step - loss: 0.5689 - accuracy: 0.7468
+Epoch 7/50
+10/10 [==============================] - 6s 621ms/step - loss: 0.2959 - accuracy: 0.8987
+Epoch 8/50
+10/10 [==============================] - 6s 631ms/step - loss: 0.1625 - accuracy: 0.9620
+Epoch 9/50
+10/10 [==============================] - 6s 616ms/step - loss: 0.1108 - accuracy: 0.9367
+Epoch 10/50
+10/10 [==============================] - 6s 628ms/step - loss: 1.8689 - accuracy: 0.8101
+Epoch 11/50
+10/10 [==============================] - 6s 620ms/step - loss: 0.6194 - accuracy: 0.8861
+Epoch 12/50
+10/10 [==============================] - 6s 607ms/step - loss: 0.4487 - accuracy: 0.8101
+Epoch 13/50
+10/10 [==============================] - 6s 633ms/step - loss: 0.0939 - accuracy: 0.9620
+Epoch 14/50
+10/10 [==============================] - 6s 641ms/step - loss: 0.0347 - accuracy: 1.0000
+Epoch 15/50
+10/10 [==============================] - 6s 630ms/step - loss: 0.0229 - accuracy: 1.0000
+Epoch 16/50
+10/10 [==============================] - 6s 622ms/step - loss: 0.1501 - accuracy: 0.9494
+Epoch 17/50
+10/10 [==============================] - 6s 628ms/step - loss: 0.0329 - accuracy: 0.9873
+Epoch 18/50
+10/10 [==============================] - 6s 582ms/step - loss: 0.8173 - accuracy: 0.7848
+Epoch 19/50
+10/10 [==============================] - 6s 616ms/step - loss: 1.1859 - accuracy: 0.3544
+Epoch 20/50
+10/10 [==============================] - 5s 534ms/step - loss: 1.1746 - accuracy: 0.3165
+Epoch 21/50
+10/10 [==============================] - 5s 529ms/step - loss: 1.2999 - accuracy: 0.4177
+Epoch 22/50
+10/10 [==============================] - 5s 525ms/step - loss: 0.8817 - accuracy: 0.5443
+Epoch 23/50
+10/10 [==============================] - 5s 521ms/step - loss: 0.4264 - accuracy: 0.8608
+Epoch 24/50
+10/10 [==============================] - 5s 536ms/step - loss: 0.2900 - accuracy: 0.8861
+Epoch 25/50
+10/10 [==============================] - 5s 521ms/step - loss: 0.0580 - accuracy: 0.9873
+Epoch 26/50
+10/10 [==============================] - 5s 528ms/step - loss: 0.0391 - accuracy: 0.9873
+Epoch 27/50
+10/10 [==============================] - 5s 523ms/step - loss: 0.0447 - accuracy: 0.9873
+Epoch 28/50
+10/10 [==============================] - 5s 522ms/step - loss: 0.0143 - accuracy: 1.0000
+Epoch 29/50
+10/10 [==============================] - 5s 537ms/step - loss: 0.0014 - accuracy: 1.0000
+Epoch 30/50
+10/10 [==============================] - 5s 525ms/step - loss: 9.0773e-04 - accuracy: 1.0000
+Epoch 31/50
+10/10 [==============================] - 5s 533ms/step - loss: 8.4811e-05 - accuracy: 1.0000
+Epoch 32/50
+10/10 [==============================] - 5s 529ms/step - loss: 2.4496e-05 - accuracy: 1.0000
+Epoch 33/50
+10/10 [==============================] - 5s 541ms/step - loss: 2.1648e-05 - accuracy: 1.0000
+Epoch 34/50
+10/10 [==============================] - 5s 529ms/step - loss: 1.1092e-05 - accuracy: 1.0000
+Epoch 35/50
+10/10 [==============================] - 5s 546ms/step - loss: 9.2642e-06 - accuracy: 1.0000
+Epoch 36/50
+10/10 [==============================] - 5s 532ms/step - loss: 7.8283e-06 - accuracy: 1.0000
+Epoch 37/50
+10/10 [==============================] - 5s 532ms/step - loss: 7.0336e-06 - accuracy: 1.0000
+Epoch 38/50
+10/10 [==============================] - 5s 535ms/step - loss: 6.4914e-06 - accuracy: 1.0000
+Epoch 39/50
+10/10 [==============================] - 5s 530ms/step - loss: 6.1830e-06 - accuracy: 1.0000
+Epoch 40/50
+10/10 [==============================] - 5s 529ms/step - loss: 5.7580e-06 - accuracy: 1.0000
+Epoch 41/50
+10/10 [==============================] - 5s 532ms/step - loss: 5.4190e-06 - accuracy: 1.0000
+Epoch 42/50
+10/10 [==============================] - 5s 548ms/step - loss: 5.2572e-06 - accuracy: 1.0000
+Epoch 43/50
+10/10 [==============================] - 5s 527ms/step - loss: 4.9950e-06 - accuracy: 1.0000
+Epoch 44/50
+10/10 [==============================] - 5s 529ms/step - loss: 4.6780e-06 - accuracy: 1.0000
+Epoch 45/50
+10/10 [==============================] - 6s 603ms/step - loss: 4.5335e-06 - accuracy: 1.0000
+Epoch 46/50
+10/10 [==============================] - 5s 546ms/step - loss: 4.2119e-06 - accuracy: 1.0000
+Epoch 47/50
+10/10 [==============================] - 5s 538ms/step - loss: 4.3095e-06 - accuracy: 1.0000
+Epoch 48/50
+10/10 [==============================] - 5s 531ms/step - loss: 3.8771e-06 - accuracy: 1.0000
+Epoch 49/50
+10/10 [==============================] - 5s 530ms/step - loss: 3.6526e-06 - accuracy: 1.0000
+Epoch 50/50
+10/10 [==============================] - 5s 529ms/step - loss: 3.4932e-06 - accuracy: 1.0000
+F
+[[1. 0. 0.]]
+[[0.73 0.   0.27]]
+[[0.   0.73 0.27]]
+[[0.   0.99 0.01]]
+[[0. 0. 1.]]
+[[0. 0. 1.]]
+I
+[[0. 1. 0.]]
+[[1. 0. 0.]]
+[[0.49 0.51 0.  ]]
+[[1. 0. 0.]]
+[[0.9 0.1 0. ]]
+[[0. 1. 0.]]
+S
+[[0. 0. 1.]]
+[[0.56 0.43 0.  ]]
+[[0. 1. 0.]]
+[[0.93 0.03 0.05]]
+[[1. 0. 0.]]
+[[0. 0. 1.]]
+(eda) shk3@shk3-VirtualBox:~/git.bak/substructuresnmr/scripts$ python combined_classify.py
+Found 79 images belonging to 3 classes.
+Found 79 images belonging to 3 classes.
+2020-12-26 21:25:34.896962: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2020-12-26 21:25:34.931350: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2495995000 Hz
+2020-12-26 21:25:34.938755: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55df9a760e50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-26 21:25:34.938877: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-26 21:25:34.939044: I tensorflow/core/common_runtime/process_util.cc:147] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+model compiled
+Epoch 1/50
+3/3 [==============================] - 7s 2s/step - loss: 5.3038 - accuracy: 0.3291
+Epoch 2/50
+3/3 [==============================] - 7s 2s/step - loss: 1.1736 - accuracy: 0.3671
+Epoch 3/50
+3/3 [==============================] - 7s 2s/step - loss: 1.1228 - accuracy: 0.3038
+Epoch 4/50
+3/3 [==============================] - 7s 2s/step - loss: 1.1095 - accuracy: 0.3544
+Epoch 5/50
+3/3 [==============================] - 7s 2s/step - loss: 1.1030 - accuracy: 0.3671
+Epoch 6/50
+3/3 [==============================] - 7s 2s/step - loss: 1.1110 - accuracy: 0.2152
+Epoch 7/50
+3/3 [==============================] - 7s 2s/step - loss: 1.1045 - accuracy: 0.1646
+Epoch 8/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0985 - accuracy: 0.3291
+Epoch 9/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0986 - accuracy: 0.3544
+Epoch 10/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0982 - accuracy: 0.3544
+Epoch 11/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0981 - accuracy: 0.3544
+Epoch 12/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0979 - accuracy: 0.3544
+Epoch 13/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0975 - accuracy: 0.3544
+Epoch 14/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0974 - accuracy: 0.3544
+Epoch 15/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0974 - accuracy: 0.3544
+Epoch 16/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0973 - accuracy: 0.3544
+Epoch 17/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0969 - accuracy: 0.3544
+Epoch 18/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0972 - accuracy: 0.3544
+Epoch 19/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0970 - accuracy: 0.3544
+Epoch 20/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0958 - accuracy: 0.3544
+Epoch 21/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0969 - accuracy: 0.3544
+Epoch 22/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0957 - accuracy: 0.3544
+Epoch 23/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0929 - accuracy: 0.3544
+Epoch 24/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0899 - accuracy: 0.3924
+Epoch 25/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0863 - accuracy: 0.4557
+Epoch 26/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0829 - accuracy: 0.4304
+Epoch 27/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0679 - accuracy: 0.4051
+Epoch 28/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0571 - accuracy: 0.4304
+Epoch 29/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0428 - accuracy: 0.5696
+Epoch 30/50
+3/3 [==============================] - 7s 2s/step - loss: 1.0374 - accuracy: 0.5190
+Epoch 31/50
+3/3 [==============================] - 7s 2s/step - loss: 0.9330 - accuracy: 0.4937
+Epoch 32/50
+3/3 [==============================] - 7s 2s/step - loss: 0.5411 - accuracy: 0.9620
+Epoch 33/50
+3/3 [==============================] - 7s 2s/step - loss: 0.2834 - accuracy: 0.9367
+Epoch 34/50
+3/3 [==============================] - 7s 2s/step - loss: 0.2235 - accuracy: 0.9367
+Epoch 35/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0392 - accuracy: 1.0000
+Epoch 36/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0155 - accuracy: 0.9873
+Epoch 37/50
+3/3 [==============================] - 7s 2s/step - loss: 0.4476 - accuracy: 0.9241
+Epoch 38/50
+3/3 [==============================] - 7s 2s/step - loss: 0.1050 - accuracy: 0.9494
+Epoch 39/50
+3/3 [==============================] - 7s 2s/step - loss: 0.1271 - accuracy: 0.9494
+Epoch 40/50
+3/3 [==============================] - 7s 2s/step - loss: 0.1197 - accuracy: 0.9747
+Epoch 41/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0740 - accuracy: 0.9747
+Epoch 42/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0737 - accuracy: 0.9873
+Epoch 43/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0311 - accuracy: 0.9873
+Epoch 44/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0909 - accuracy: 0.9494
+Epoch 45/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0657 - accuracy: 1.0000
+Epoch 46/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0814 - accuracy: 0.9873
+Epoch 47/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0282 - accuracy: 1.0000
+Epoch 48/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0142 - accuracy: 1.0000
+Epoch 49/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0157 - accuracy: 1.0000
+Epoch 50/50
+3/3 [==============================] - 7s 2s/step - loss: 0.0056 - accuracy: 1.0000
+F
+[[0.97 0.02 0.01]]
+[[0.97 0.01 0.02]]
+[[0.8  0.05 0.15]]
+[[0.33 0.02 0.65]]
+[[0. 0. 1.]]
+[[0. 0. 1.]]
+I
+[[0.02 0.97 0.01]]
+[[0.05 0.94 0.01]]
+[[0.06 0.92 0.02]]
+[[0.36 0.14 0.5 ]]
+[[0. 0. 1.]]
+[[0. 0. 1.]]
+S
+[[0. 0. 1.]]
+[[0. 0. 1.]]
+[[0.07 0.26 0.67]]
+[[0. 0. 1.]]
+[[0. 0. 1.]]
+[[0. 0. 1.]]
+
+
