@@ -38,7 +38,7 @@ def print_conclusion(prediction):
     third_item = sorted_p.popitem(last=False)
 
     if combined:
-        print('\n\n' + str(first_item[0]) + ' ' + 'with ' + str(first_item[1]*100) + '%% confidence')
+        print('\n\n' + str(first_item[0]) + ' ' + 'with ' + str(first_item[1]*100) + str('%') + ' confidence')
     else:
         if (
                 (str(first_item[1])[:3] == '0.3') 
