@@ -9,3 +9,5 @@ All spectra have been edited in the following way:
 
 In the test folders there are some artificial mixtures by overlaying spectra (the names are like x_y_z, where x, y, and z indicate that the spectrum is bmse000<x|y|z>_1H_13C_<HSQC|HMBC>.png originally). Those have been produced by exactly overlaying the original images using the scales. The scales were removed afterwards and the images edited as above.
 
+The none folder has some samples of structures with none of the three substructures.
+
